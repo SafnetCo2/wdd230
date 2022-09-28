@@ -1,0 +1,31 @@
+@media screen   and (min-width: 32em){
+
+
+    /* ipad air or mobile */
+    header{
+        font-size: 1.3rem;
+    }
+
+    
+
+    .container{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+        /* grid-template-columns: 1fr  1fr;
+        column-gap: 2%; */
+        /* width: 70%; */
+        padding: 10px;
+    
+        
+    } 
+        
+    .box{
+        font-size: .8rem;    
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
+}
+
+    
