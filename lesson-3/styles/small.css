@@ -57,20 +57,17 @@ h1 {
 h2{
     font-size: .8rem;
 }
-/* img{
+img{
     width: 1200px;
     margin: 0 20px 20px 20px 20px;
     margin-top: 2px;
     padding: 10px;
     height: 30vh;
     align-items: center;
-} */
-img{
-    height: 70vh;
-    width: 100vw;
+} 
 
     
-}
+
 .left,img{
     display: flex;
     flex-direction: column;
