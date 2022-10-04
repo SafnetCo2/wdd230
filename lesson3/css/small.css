@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    background-color: #000;
+    font-family: 'Merriweather', serif;
+}
+body{
+	font-family: 'Merriweather', serif; 
+    background-color: #000;
+    color: #DAA520;
+    
+    
+}
+.nav{
+	
+	top: 0;
+	left: 0;
+	transition: all 0.3s ease-in-out;
+	width: 100%;
+}
+.container-fluid{
+    max-width: 1200px;
+	margin: 0 auto;
+    
+} 
+.nav .container-fluid{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0; 
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+	color: #fff;
+	text-decoration: none;
+	padding: 7px 15px;
+}
+.nav a.current,
+.nav a:hover{
+	color: #FF1E1E;
+	font-weight: bold;
+}
+.container-fluid,h3,.logo{
+    padding: .2rem;
+    ;
+    
+}
+.hero{
+    padding: 0 2rem;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 2px;
+    top: 100%;
+
+}
+h2{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.boxes .container{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 0 5px; 
+    gap: 5rem;
+}
+.boxes{
+    flex: 1;
+    margin-top: 4rem;
+    font-size: 1rem;
+
+}
+
+
+.banner img{
+    width: 1300px;
+    height: 60vh;
+    
+    
+} 
+.left .img{
+width: 30%;
+padding: 30px;
+
+}
+.target{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.target .services{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 0 5px; 
+    gap: 5rem;
+}
+.target{
+    flex: 1;
+    margin-top: 4rem;
+    font-size: 1rem;
+}
+.target-bx{
+    margin-bottom: 10rem;
+    background-color: #FFAB4C;
+}
+
+h3{
+    font-size: 1.5rem;
+  
+}
+.typo{
+    margin-bottom: 15rem;
+}
+
+
+
+ .footer{
+        
+    margin-top: 1rem;
+    padding: 20px 63px;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+} 

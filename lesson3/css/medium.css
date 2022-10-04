@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px){
+    *{
+        font-family: 'Montserrat', sans-serif;
+        flex-direction: column;
+        color: #DAA150;
+    }
+    
+    .boxes img{ 
+        width: 90%;   
+            
+    }
+     .header,.nav{
+    /* display: block;  */
+
+    padding: 20px;
+    text-align: center;
+    }
+
+   
+   .boxes,.container{
+    display: block;
+    
+    
+   }
+   
+   
+
+   
+} 
