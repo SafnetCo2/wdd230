@@ -93,6 +93,7 @@ width: 10%;
 padding: 20px;
 
 }
+
 .target{
     padding: 20px;
     display: flex;
@@ -147,6 +148,23 @@ h3{
     border-radius: 6px;
     border-bottom: 2px solid#fff;
     box-shadow: 0 2px 7px #FFAB4C;
+}
+.services-box-t{
+
+    padding: 30px;
+    width: 700px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    text-align: justify;
+    border-radius: 6px;
+    border-bottom: 2px solid#fff;
+    box-shadow: 0 2px 7px #FFAB4C;
+
+
+
 }
 .services-box img{
     margin: 0;
