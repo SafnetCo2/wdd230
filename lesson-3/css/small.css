@@ -89,7 +89,7 @@ h2{
     
 } 
 .left .img{
-width: 30%;
+width: 10%;
 padding: 20px;
 
 }
@@ -125,8 +125,83 @@ h3{
 }
 
 
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.services-box{
+    
+    padding: 30px;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    text-align: justify;
+    border-radius: 6px;
+    border-bottom: 2px solid#fff;
+    box-shadow: 0 2px 7px #FFAB4C;
+}
+.services-box img{
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 40vh;
+    
+    
+}
+.services-box h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.7rem 0 0.4rem;
 
- .footer{
+}
+.services-box .bx {
+    
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: #FFAB4C;
+    }
+    .services-box a{
+        display: inline-block;
+        background: crimson;
+        font-family: Regular, Semibold and Bold;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 8px 16px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid crimson;
+        transition: all 0.3s ease;
+    
+    }
+    .intro{
+        text-align: center;
+        padding: 20px;
+        line-height: 3rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    .scenario{
+        padding: 40px;
+        font-size: 1rem;
+        text-align: justify;
+
+    }
+    
+
+
+
+
+
+.footer{
         
     margin-top: 1rem;
     padding: 20px 63px;
