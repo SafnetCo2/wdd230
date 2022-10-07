@@ -253,7 +253,7 @@ audience images */
     font-size: 1.5rem;
     color: #FFAB4C;
     }
-    .services-box a{
+.services-box a{
         
         
         /* width: 100vw;
@@ -266,7 +266,7 @@ audience images */
         border: 2px solid #DC143C;
         transition: all 0.3s ease;
     
-    }
+}
     /* a{
         text-align: center;
         align-content: center;
