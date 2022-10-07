@@ -1,9 +1,6 @@
 *{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-    background-color: #000;
-    font-family: 'Merriweather', serif;
+	box-sizing: border-box
+	    
 }
 body{
 	font-family: 'Merriweather', serif; 
@@ -37,18 +34,20 @@ body{
     justify-content: center;
 }
 .nav a{
+    
 	color: #fff;
 	text-decoration: none;
 	padding: 7px 15px;
 }
 .nav a.current,
 .nav a:hover{
+    background-color: #000;
 	color: #FF1E1E;
 	font-weight: bold;
 }
 .container-fluid,h3,.logo{
     padding: .2rem;
-    ;
+    
     
 }
 .hero{
@@ -88,6 +87,11 @@ h2{
     
     
 } 
+/* .responsive {
+    width: 100%;
+    height: auto;
+  } */
+  
 .left .img{
 width: 10%;
 padding: 20px;
@@ -123,9 +127,9 @@ h3{
   
 }
 .typo{
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 }
-
+/* audience styles */
 
 .services-content{
     display: grid;
@@ -138,12 +142,12 @@ h3{
 .services-box{
     
     padding: 30px;
-    width: 400px;
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    align-items: center;
+    
     text-align: justify;
     border-radius: 6px;
     border-bottom: 2px solid#fff;
@@ -166,6 +170,69 @@ h3{
 
 
 }
+
+/* color-scheme styles*/
+.container-servince{
+    background-color: #000	;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+}
+#div1{
+    height:60px;
+    width:300px;
+    background-color:#ff0000;
+    margin:0;
+    }
+    #div1a{
+        height:20px;
+        width:300px;
+        background-color:#000;
+        margin:0;
+        }
+    
+    #div2{
+        height:50px;
+        width:300px;
+        background-color:#000;
+        /* position:relative; */
+        color: #fff;
+    
+        bottom:30rem;
+        }
+    
+
+
+#div2{
+    height:50px;
+    width:300px;
+    background-color:#DAA520;
+    /* position:relative; */
+
+    bottom:30rem;
+    }
+    #div3{
+        height:50px;
+        width:300px;
+        background-color:#708223;
+        
+        bottom:280px;
+        }
+    #div4{
+        height:60px;
+        width:300px;
+        background-color:#fff;
+        
+        right:320px;
+        bottom:100px;
+        }
+/* 
+
+
+
+audience images */
 .services-box img{
     margin: 0;
     padding: 0;
@@ -187,23 +254,31 @@ h3{
     color: #FFAB4C;
     }
     .services-box a{
-        display: inline-block;
-        background:#DC143C;
-        font-family: Regular, Semibold and Bold;
+        
+        
+        /* width: 100vw;
+        height: 100vh; */
         color: #fff;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 8px 16px;
-        margin-top: 20px;
+        font-size: 1rem;
+        padding: 8px 12px;
+        margin-top: 10px;
         border-radius: 6px;
         border: 2px solid #DC143C;
         transition: all 0.3s ease;
     
     }
-    .intro{
+    /* a{
         text-align: center;
-        padding: 20px;
-        line-height: 3rem;
+        align-content: center;
+        width: 30%;
+        height: 1%;
+        background:#DC143C;
+    } */
+    .intro{
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px;
+        
     }
     h4{
         font-size: 1.5rem;

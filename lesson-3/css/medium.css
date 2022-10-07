@@ -1,26 +1,55 @@
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 62em){
     *{
-        font-family: 'Montserrat', sans-serif;
+        
         flex-direction: column;
-        color: #DAA150;
+     
+
     }
     
-    .boxes img{ 
-        width: 90%;   
+    .banner img{
+        width: 1200px;
+        height: 50vh;
+        
+        
+    }
+    .boxes, img{ 
+        margin: 10px;
+        padding: 10px;
+        background-color: #000;
+    
+        
             
     }
-     .header,.nav{
-    /* display: block;  */
-
-    padding: 20px;
-    text-align: center;
-    }
+     
 
    
    .boxes,.container{
     display: block;
+    margin: 10px;
+    padding: 10px;
+    
+
     
     
+   }
+   .container-servince{
+    display: flex;
+    flex-grow: 1;
+    background-color: #DAA150;
+    color: #000;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+
+   }  
+   #div1,#div1a,#div2,#div3,#div4{
+    color: #fff;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
    }
    
    
