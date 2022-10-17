@@ -1,0 +1,406 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} */
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { 
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #5F9DF7;    
+    color: #000;
+
+    
+    }
+
+nav ul{
+    
+    list-style: none;
+    padding: 30px;
+    
+}
+nav button{
+    margin: .2rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #DC143C;
+}
+nav ul li a{
+    
+    display: block;
+    padding: .8rem 2vh;
+    font-size: 1rem;
+    text-decoration: none;
+    
+    
+
+}
+.dateT{
+    text-align: center;
+    font-size: 2rem;
+}
+nav ul li a:hover{
+     padding: 10px; 
+    border-radius: .5rem;
+    background-color: #FF731D;
+}
+nav ul li .active {
+    border-radius: .5rem;
+    background-color: #FF731D;
+
+}
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+
+
+#hamburgerBtn span:nth-child(1){display: block;}
+#hamburgerBtn span:nth-child(2){display: none;}
+
+
+#hamburgerBtn.open span:nth-child(1){display: none;}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+.container-fluid{
+    padding: 8rem;
+
+}
+header .logo{
+    display: block;
+    padding: 20px;
+    float: left;
+    margin: .2rem 3vw;
+    
+}
+.date{
+    text-align: center;
+	margin: 0.5rem;
+	/* border: 1px solid #bbb; */
+	padding: 0.75rem;
+	/* background-color: #eee; */
+}
+
+header .date{
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    /* margin-left: 30%; */
+}
+
+
+
+.logo{
+    padding: .8rem;
+}
+h1{
+    text-align: center;
+}
+main{
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    
+}
+main div{
+    /* background-color: gray; */
+     /* padding: 10px; 
+    padding-bottom: 10rem; */
+    border: .5rem;
+    
+    border: 2px solid;
+}
+
+.hero{
+    position: relative;
+    
+    justify-content: center;
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-column: 1/-1;
+    grid-row: 1; 
+    /* font-size: 1.5rem; */
+
+    
+
+    /* margin-bottom: 10rem; */
+
+
+
+    
+}
+.hero img{
+    width: 100%;
+    height: 15rem;
+} 
+.stats {
+    margin: 10px; 
+   font-size: 1rem;
+   position: absolute; 
+   top: 200px;
+    
+    
+	/* right:  600px; */
+
+    background-color: transparent;
+	 /* background: radial-gradient(#eee, #4567aa);  */
+	/* border: 1px solid rgba(0,0,0,.1); */
+	/* padding: .5rem; */
+	/* box-shadow: 0 0 30px #333; */
+	/* opacity: 0.8;  */
+}
+
+.stats span {
+	font-style: italic;
+	font-weight: 700;
+} 
+.hero button{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    
+    font-size: 1.5rem;
+    background-color: green;
+    border-radius: .5rem;
+    padding: 10px;
+
+}
+.hero button:hover{
+
+    background-color: #DC143C;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+    
+   
+  
+    
+
+
+/* .stats p{
+   
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+} */
+
+
+.news{
+    grid-column: 1/1;
+    grid-row: 4;
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+.news h3{
+    color: #fff;
+}
+.spotlight1{
+    grid-column: 1/-1;
+    grid-row: 5;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+font-size: 1rem;
+
+
+
+
+}
+.spotlight1 h3 {
+    
+    color: #fff;
+}
+.spotlight1 .bi{
+   padding: 1px;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+    
+
+
+.spotlight1 a{
+    color: #000;
+}
+.spotlight2{
+    grid-column: 1/-1;
+    grid-row: 6;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+.spotlight2 a{
+    font-size: 1.5rem;
+}
+.join{
+    position: relative;
+    display: none;
+    padding: 10px;
+    font-size: 1rem; 
+   
+    
+
+}
+.join button{
+    position: absolute;
+    justify-content: center;
+    /* top: 228px; */
+ 
+    font-size: 2rem;
+    background-color: green;
+    border-radius: .5rem;
+     /* padding: 10px;  */
+}
+.join p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.join a{
+    text-align: center;
+    color: #fff;
+}
+.join button:hover{
+padding: 10px;
+
+    background-color: #DC143C;
+    cursor: pointer;
+    color: #fff;
+}
+.event{
+    text-align: center;
+
+    position: relative;
+    grid-column: 1/-1;
+    grid-row: 2;
+     /* padding: -5px;  */
+}
+.bii{
+    margin-bottom: 8rem;
+    background: radial-gradient(#eee, #4567aa);
+	border: 1px solid rgba(0,0,0,.1);
+	padding: .5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: 0.8;
+    border-radius: .5rem;
+    color: #000;
+  
+
+}
+.event a{
+    font-size: 1rem;
+    color: #000;
+	text-decoration: none;
+	/* padding: 7px 10px;
+  */
+}
+
+.event p{
+    font-size: 1rem;
+}
+/* .event button{
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+} */
+
+
+
+
+
+.weather{
+    grid-column: 1/-1;
+    grid-row: 3;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    
+}
+.weather .bi{
+ color: #fff;
+    width: 20%;
+    padding: .5rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.weather p{
+    font-size: 1.5rem;
+    text-align: center;
+ 
+}
+pre a {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.spotlight3{
+    
+   justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+text-align: center;
+    display: none;
+
+}
+.spotlight3 .biii{
+    font-size: 1.5rem;
+    text-align: center;
+
+    color: #fff;
+}
+
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* margin: 0 auto; */
+    /* padding: 10px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+    
+
+
+.footer{
+    /* display: flex;
+    flex-direction: column; */
+
+    font-size: 1rem;    
+    /* margin-top: 1rem; */
+    /* padding: 20px; */
+    width: 100%;
+    color: #000;
+    justify-content: center;
+    
+    text-align: center;
+} 
+.myFooter{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
