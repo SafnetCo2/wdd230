@@ -10,6 +10,7 @@
 
 // document.querySelector(	"#date-time"
 // ).textContent = `date-time: ${document.lastModified}`;
+
 document.querySelector(
-	"#date-in"
-).textContent = `date-in: ${document.lastModified}`;
+	"#Last-updated"
+).textContent = `Last-updated: ${document.lastModified}`;

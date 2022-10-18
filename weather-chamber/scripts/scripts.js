@@ -27,16 +27,12 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // const dt=new Date();
 // document.getElementById("date-time").innerHTML=dt+"/";
 
-var today = new Date();
-var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var dateTime = date+' '+time;
-
-document.getElementById("date-time").innerHTML=dateTime;
-
 const hero = new Date();
 const  day=hero.getDay();
 if (day < 1 || day > 2) {
     const x = document.querySelector('.dateT');
     x.remove();
   }
+  document.querySelector(
+	"#Last-updated"
+).textContent = `Last-updated: ${document.lastModified}`;
