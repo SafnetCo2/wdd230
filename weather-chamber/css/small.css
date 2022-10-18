@@ -402,5 +402,9 @@ footer{
     justify-content: center;
     
 }
+#last-updated{
+	text-align: center;
+	font-size: smaller;
+}
 
 
