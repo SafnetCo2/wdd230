@@ -27,9 +27,12 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // const dt=new Date();
 // document.getElementById("date-time").innerHTML=dt+"/";
 
-var today = new Date();
-var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var dateTime = date+' '+time;
+// var today = new Date();
+// var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+// var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+// var dateTime = date+' '+time;
 
-document.getElementById("date-time").innerHTML=dateTime;
+// document.getElementById("date-time").innerHTML=dateTime;
+document.querySelector(
+	"#date-in"
+).textContent = `date-in: ${document.lastModified}`;
