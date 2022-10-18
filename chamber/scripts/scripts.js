@@ -34,5 +34,5 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 
 // document.getElementById("date-time").innerHTML=dateTime;
 document.querySelector(
-	"#date-in"
-).textContent = `date-in: ${document.lastModified}`;
+	"#Last-updated"
+).textContent = `Last-updated: ${document.lastModified}`;
