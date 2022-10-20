@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#404040" fill-rule="nonzero" d="M2 0C.9 0 .01.9.01 2L0 18c0 1.1.89 2 1.99 2H14c1.1 0 2-.9 2-2V6.83c0-.53-.21-1.04-.59-1.41L10.58.59C10.21.21 9.7 0 9.17 0H2zm7 6V1.5L14.5 7H10c-.55 0-1-.45-1-1z"/>
+        <text fill="#FFF" font-family="AvenirNext-Bold, Avenir Next" font-size="6" font-weight="bold">
+            <tspan x="2" y="15">PDF</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_template" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#444}
+        </style>
+    </defs>
+    <path id="Rectangle" d="M0 0h24v24H0z" class="cls-1"/>
+    <g id="Group_15" data-name="Group 15" transform="translate(5 4.5)">
+        <rect id="Rectangle-2" width="6" height="8" class="cls-2" data-name="Rectangle" rx="1"/>
+        <rect id="Rectangle_Copy_3" width="6" height="8" class="cls-2" data-name="Rectangle Copy 3" rx="1" transform="translate(8 7)"/>
+        <rect id="Rectangle-3" width="6" height="5" class="cls-2" data-name="Rectangle" rx="1" transform="translate(8)"/>
+        <rect id="Rectangle_Copy_4" width="6" height="5" class="cls-2" data-name="Rectangle Copy 4" rx="1" transform="translate(0 10)"/>
+    </g>
+</svg>

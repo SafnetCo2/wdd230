@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_sub-bullet" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#2c2f58}
+        </style>
+    </defs>
+    <path id="Rectangle" d="M0 0h24v24H0z" class="cls-1"/>
+    <g id="Group_47" data-name="Group 47" transform="translate(0 2)">
+        <rect id="Rectangle_98" width="2" height="2" class="cls-2" data-name="Rectangle 98" rx="1" transform="translate(5 4)"/>
+        <rect id="Rectangle_99" width="10" height="2" class="cls-2" data-name="Rectangle 99" rx="1" transform="translate(9 4)"/>
+        <g id="Group_46" data-name="Group 46" transform="translate(5.111 8)">
+            <rect id="Rectangle_102" width="5.999" height="2" class="cls-2" data-name="Rectangle 102" rx="1" transform="rotate(45 .707 1.707)"/>
+            <rect id="Rectangle_103" width="5.999" height="2" class="cls-2" data-name="Rectangle 103" rx="1" transform="rotate(-45 8.63 3.575)"/>
+        </g>
+        <rect id="Rectangle_104" width="2" height="2" class="cls-2" data-name="Rectangle 104" rx="1" transform="translate(12 9)"/>
+        <rect id="Rectangle_105" width="4" height="2" class="cls-2" data-name="Rectangle 105" rx="1" transform="translate(15 9)"/>
+        <rect id="Rectangle_106" width="2" height="2" class="cls-2" data-name="Rectangle 106" rx="1" transform="translate(12 14)"/>
+        <rect id="Rectangle_107" width="4" height="2" class="cls-2" data-name="Rectangle 107" rx="1" transform="translate(15 14)"/>
+    </g>
+</svg>

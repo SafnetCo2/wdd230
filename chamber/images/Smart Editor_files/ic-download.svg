@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_download" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-2{fill:#0075cb;stroke:#f2f9ff;stroke-width:.5px}
+        </style>
+    </defs>
+    <rect id="Rectangle_479" width="28" height="28" fill="#f2f9ff" rx="8"/>
+    <g id="Group_17" transform="translate(-6 -5)">
+        <g id="Group_29550">
+            <g id="Group_36" transform="translate(12 12)">
+                <g id="np_download_1119430_000000">
+                    <path id="Shape" d="M1.691 4.923h12.618A1.744 1.744 0 0 0 16 3.1V1.094a1.018 1.018 0 1 0-2.03 0v1.641H2.03V1.094A1.038 1.038 0 0 0 1.015 0 1.038 1.038 0 0 0 0 1.094V3.1a1.744 1.744 0 0 0 1.691 1.823z" class="cls-2" transform="translate(0 9.846)"/>
+                    <path id="Shape-2" d="M3.335 1v6.663l-1.684-1.74a.918.918 0 0 0-1.36 0 .993.993 0 0 0 0 1.405l3.336 3.447a1.163 1.163 0 0 0 .324.234.679.679 0 0 0 .357.067 1.161 1.161 0 0 0 .357-.067.99.99 0 0 0 .324-.234l3.335-3.446a.993.993 0 0 0 0-1.405.918.918 0 0 0-1.36 0L5.278 7.663V1a.972.972 0 1 0-1.943 0z" class="cls-2" transform="translate(3.692)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
