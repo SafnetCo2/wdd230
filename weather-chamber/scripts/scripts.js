@@ -1,10 +1,9 @@
 function toggleMenu(){
-    document.getElementById('primaryNav').classList.toggle("open")
-    document.getElementById('hamburgerBtn').classList.toggle("open")
+  document.getElementById("primaryN").classList.toggle("open")
+  document.getElementById("btn").classList.toggle("open")
 }
-const x =document.getElementById("hamburgerBtn")
-
-x.onclick= toggleMenu;
+const x =document.getElementById("btn")
+x.onclick=toggleMenu;
 
 // Date
 // const d= new Date();
@@ -27,12 +26,12 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // const dt=new Date();
 // document.getElementById("date-time").innerHTML=dt+"/";
 
-const hero = new Date();
-const  day=hero.getDay();
-if (day < 1 || day > 2) {
-    const x = document.querySelector('.dateT');
-    x.remove();
-  }
+// const hero = new Date();
+// const  day=hero.getDay();
+// if (day < 1 || day > 2) {
+//     const x = document.querySelector('.dateT');
+//     x.remove();
+//   }
   document.querySelector(
 	"#Last-updated"
 ).textContent = `Last-updated: ${document.lastModified}`;
