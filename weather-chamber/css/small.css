@@ -155,14 +155,14 @@ main div{
     bottom: 1rem;
     right: 1rem;
     
-    background-color: green;
+    background-color: gray;
     border-radius: .5rem;
     padding: 10px;
 
 }
 .hero button:hover{
 
-    background-color: #DC143C;
+ 
     cursor: pointer;
 
 }
