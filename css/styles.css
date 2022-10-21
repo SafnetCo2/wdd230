@@ -1,6 +1,6 @@
 
 header{
-    background-color:  #1DA1F2;
+    background-color:  gray;
     border-radius: 1rem;
     margin-left: 3rem;
     width: 55%;
@@ -61,7 +61,7 @@ header{
 }
 
 footer{
-    background-color: #1DA1F2;
+    background-color: gray;
     color: #fff;
     border-radius: 1rem;
     box-shadow: 1px 1px 1px 1px #000;
