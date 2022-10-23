@@ -26,13 +26,17 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // const dt=new Date();
 // document.getElementById("date-time").innerHTML=dt+"/";
 
-// const hero = new Date();
-// const  day=hero.getDay();
-// if (day < 1 || day > 2) {
-//     const x = document.querySelector('.dateT');
-//     x.remove();
-//   }
+const hero = new Date();
+const  day=hero.getDay();
+if (day < 1 || day > 2) {
+    const x = document.querySelector('.dateT');
+    x.remove();
+  }
 
+//windchill
+//input: get the temperature and speed
+//process: compute for windchill factor
+//output:display result to the user
 
 
 //footer last updated
