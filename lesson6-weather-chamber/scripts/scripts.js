@@ -32,6 +32,10 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 //     const x = document.querySelector('.dateT');
 //     x.remove();
 //   }
+
+
+
+//footer last updated
   document.querySelector(
 	"#Last-updated"
 ).textContent = `Last-updated: ${document.lastModified}`;

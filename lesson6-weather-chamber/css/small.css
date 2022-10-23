@@ -291,14 +291,16 @@ padding: 10px;
 .weather{
     grid-column: 1/-1;
     grid-row: 3;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
-
-    
-}
-
  
+}
+.sun{
 
+    border: none;
+    padding: 2px;
+    border-bottom: 3px solid   #000;
+}
 .spotlight3{
     grid-column: 1/-1;
     grid-row: 6;
