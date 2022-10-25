@@ -7,28 +7,31 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-     background-color: gray;  
-     font-size: 1.2rem;   
+    margin: 1px;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2rem;   
     color: #000;
 
     
 }
-h1 {
-    font-size: 1.5rem;
-    text-align: center;
-}
-    
-h2{
-    text-align: center;
-    font-size: 1.3rem;
-}    
-    
-    
+h1  {
+    font-size: 1.2rem;
 
+}
+
+nav{
+    background-color: #87805E;
+ /* justify-content: space-between; */
+
+   
+  
+}    
 
 nav button{
     background-color: transparent;
-    font-size: 2rem;
+
+
 }
     
 nav ul{
@@ -37,21 +40,28 @@ nav ul{
     padding: 0;
     margin: 0;
 }
-nav ul li a{
-    font-size: 1.5rem;
-    display: block;
-    padding: .8rem 2vw;
-    text-decoration: none;
-    color: #333;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
 
+ 
+
+
+nav ul li a{
+
+
+    font-size: 1rem;
+    display: block; 
+     padding: .8rem 2vw;  
+    text-decoration: none;
+    color: #333; 
+    border-top: 1px solid rgba(0, 0, 0, 0.5); 
 }
+ 
 nav ul li.active a{
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
 }
 nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 nav ul {
     display: none;
