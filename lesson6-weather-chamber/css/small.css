@@ -331,6 +331,11 @@ padding: 10px;
     
 
 }
+.sun img{
+    background-color: transparent;
+    border: none;
+    border-radius: .5rem;
+}
 .compute{
     text-align: center;
     border: none;
