@@ -52,15 +52,15 @@ nav ul li a{
      padding: .8rem 2vw;  
     text-decoration: none;
  
-    border-top: 1px solid rgba(0, 0, 0, 0.5); 
+    /* border-top: 1px solid rgba(0, 0, 0, 0.5);  */
 }
  
 nav ul li.active a{
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     color: #fff;
 }
 nav ul li a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0.3); */
     cursor: pointer;
 }
 nav ul {
