@@ -24,6 +24,7 @@ nav{
     background-color: #87805E;
  /* justify-content: space-between; */
 
+
    
   
 }    
@@ -36,7 +37,7 @@ nav button{
     
 nav ul{
     list-style-type: none;
-    color: #fff;
+
     padding: 0;
     margin: 0;
 }
@@ -46,23 +47,24 @@ nav ul{
 
 nav ul li a{
 
-
+    
     font-size: 1rem;
     display: block; 
      padding: .8rem 2vw;  
     text-decoration: none;
  
-    /* border-top: 1px solid rgba(0, 0, 0, 0.5);  */
 }
  
 nav ul li.active a{
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    color: #000;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: 1px solid rgba(0, 0, 0, 0.5);
+
+
 }
 nav ul li a:hover{
-    /* background-color: rgba(0, 0, 0, 0.3); */
+
     cursor: pointer;
-    background-color: #333;
+
 }
 nav ul {
     display: none;
