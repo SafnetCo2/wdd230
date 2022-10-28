@@ -1,0 +1,18 @@
+img {
+
+    background: #F1F1FA;
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    transition: filter 0.5s;
+  }
+ /* img[data-img] {
+    filter: blur(0.1em);
+  }
+/*    */
+ /* img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  } */ 
