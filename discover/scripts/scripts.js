@@ -27,7 +27,9 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // document.getElementById("date-time").innerHTML=dt+"/";
 
 const hero = new Date();
+
 const  day=hero.getDay();
+
 if (day < 1 || day > 2) {
     const x = document.querySelector('.dateT');
     x.remove();
@@ -43,3 +45,56 @@ if (day < 1 || day > 2) {
   document.querySelector(
 	"#Last-updated"
 ).textContent = `Last-updated: ${document.lastModified}`;
+
+//lazy loading
+let options={
+  root:null,
+  rootMargin: "0px",
+  threshold:0.5
+  }
+  //create call back function
+  let callback=(entries,observer) =>{
+      entries.forEach(entry => {
+          if(entry.isIntersecting && entry.target.className==="image"){
+
+              let imageUrl =entry.target.getAttribute("srcset");
+              if(imageUrl){
+                  entry.target.src=imageUrl;
+                  observer.unobserver(entry.target);
+              }
+          }
+          
+      });
+      
+  }
+let observer = new IntersectionObserver(callback,options)
+observer.observe(document.querySelector("#image1"));
+observer.observe(document.querySelector("#image2"));
+observer.observe(document.querySelector("#image3"));
+// observer.observe(document.querySelector("#image4"));
+// observer.observe(document.querySelector("#image5"));
+// observer.observe(document.querySelector("#image6"));
+// observer.observe(document.querySelector("#image7"));
+
+
+
+// initialize display elements
+const todayDisplay = document.querySelector(".today");
+const visitsDisplay = document.querySelector(".visits");
+
+// get the stored value in localStorage
+let numVisits = Number(window.localStorage.getItem("visits-ls"));
+
+// determine if this is the first visit or display the number of visits.
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `This is your first visit!`;
+}
+
+// increment the number of visits.
+numVisits++;
+// store the new number of visits value
+localStorage.setItem("visits-ls", numVisits);
+// show todays date.
+todayDisplay.textContent = Date.now();

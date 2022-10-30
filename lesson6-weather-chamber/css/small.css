@@ -142,7 +142,7 @@ main div{
     position: relative;
     border: none;
     justify-content: center;
-;
+
     text-align: center;
     grid-column: 1/-1;
     grid-row: 1; 
