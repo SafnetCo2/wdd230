@@ -10,7 +10,7 @@
     margin: 1px;
     padding: 0;
     text-align: center;
-    font-size: 1.2rem;   
+     font-size: 1rem;    
     color: #000;
    /* background-color: #AA8B56; */
 
@@ -146,6 +146,10 @@ main{
 
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 900px;
+    padding: 10px;
+    margin: 10px;
+   grid-gap: 4rem;
 
   }
 
@@ -173,9 +177,10 @@ picture.dateT{
 
 .home-head {
     grid-column: 1 /-1;
-    grid-row: 1 ;
-    font-size: 1.3em;
+    /* grid-row: 1 ;
+    font-size: 1.3em; */
 }
+
 
 
 
@@ -187,7 +192,7 @@ picture.dateT{
   #visits {
 	color: navy;
 	font-weight: bolder;
-	font-size: larger;
+
 }
 
 .today {
@@ -224,7 +229,7 @@ footer{
     /* display: flex;
     flex-direction: column; */
 
-    font-size: 1rem;    
+    /* font-size: 1rem;     */
     /* margin-top: 1rem; */
     /* padding: 20px; */
     width: 100%;

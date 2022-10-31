@@ -57,7 +57,7 @@ let options={
       entries.forEach(entry => {
           if(entry.isIntersecting && entry.target.className==="image"){
 
-              let imageUrl =entry.target.getAttribute("srcset");
+              let imageUrl =entry.target.getAttribute("data-src");
               if(imageUrl){
                   entry.target.src=imageUrl;
                   observer.unobserver(entry.target);
@@ -73,9 +73,6 @@ observer.observe(document.querySelector("#image2"));
 observer.observe(document.querySelector("#image3"));
 // observer.observe(document.querySelector("#image4"));
 // observer.observe(document.querySelector("#image5"));
-// observer.observe(document.querySelector("#image6"));
-// observer.observe(document.querySelector("#image7"));
-
 
 
 // initialize display elements
