@@ -1,0 +1,22 @@
+@media screen and (max-width: 32rem) {
+
+    
+    table {
+      border: 1px solid #ff0000;
+      /* display: block; */
+      width: 100%;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+      display: block;
+    }
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+      }
+    
+   
+  }
+  

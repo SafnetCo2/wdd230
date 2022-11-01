@@ -4,6 +4,7 @@
     table {
       border: 1px solid #ff0000;
       /* display: block; */
+      width: 100%;
     }
   
     table caption {
