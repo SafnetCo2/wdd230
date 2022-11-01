@@ -3,6 +3,11 @@
         padding: .5rem 1rem;
 
     }
+    tr:nth-child(even) {
+        border-bottom: 3px solid #ddd;
+      }
+      
+    
 
     
     .footer{

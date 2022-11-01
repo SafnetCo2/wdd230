@@ -1,7 +1,0 @@
-@media screen and (max-width: 64rem) {
-  
-    tr:nth-child(even) {
-    background-color: gray;
-  }
-  
-}

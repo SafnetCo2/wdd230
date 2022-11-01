@@ -21,6 +21,24 @@
         border: none;
 
     }
+    table {
+        
+        /* display: block; */
+        width: 100%;
+      }
+    
+      table caption {
+        font-size: 1.3em;
+        display: block;
+      }
+      table tr {
+    
+          /* display: block; */
+          margin-bottom: .625em;
+        }
+      
+     
+    
     
     
     footer{

@@ -109,7 +109,35 @@ header .date{
     padding: 1rem;
     /* margin-left: 30%; */
 }
-
+*{
+    color: #000;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  table {
+  
+    border: 1px solid #ff0000;
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%; 
+      border: 1px solid #ddd;
+    }
+    table caption {
+      font-size: 1.5em;
+      margin: .5em 0 .75em;
+    }
+    th, td {
+  
+      text-align: left;
+      padding: 10px;
+  
+    }
+    
+    tr:nth-child(even) {
+      background-color: #87805E; 
+    }
 
 
 
