@@ -4,11 +4,9 @@
 
     }
     tr:nth-child(even) {
-        border-bottom: 3px solid #ddd;
+        background-color: #87805E;
       }
       
-    
-
     
     .footer{
         flex-direction: row;

@@ -14,16 +14,20 @@
     color: #000;
 
     
-} */
+} */ 
+
+*{
+    color: #000;
+}
 h1  {
     font-size: 1.2rem;
 
 }
 
 nav{
-     background-color: #87805E; 
-
+    background-color: #87805E;
  /* justify-content: space-between; */
+ color: #000;
 
 
    
@@ -109,35 +113,29 @@ header .date{
     padding: 1rem;
     /* margin-left: 30%; */
 }
-*{
-    color: #000;
-  }
+table {
   
-  h1{
+
+    border-collapse: collapse;
+
+
+    border: 1px solid #ddd;
+  }
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  th, td {
     text-align: center;
+    padding: 10px; 
+    margin: 10px;
+
   }
-  table {
   
-    border: 1px solid #ff0000;
-      border-collapse: collapse;
-      border-spacing: 0;
-      width: 70%; 
-      border: 1px solid #ddd;
-    }
-    table caption {
-      font-size: 1.5em;
-      margin: .5em 0 .75em;
-    }
-    th, td {
-  
-      text-align: left;
-      padding: 10px;
-  
-    }
-    
-    tr:nth-child(even) {
-      background-color: #87805E; 
-    }
+  tr:nth-child(even) {
+    background-color: #0000ff;
+  }
+
 
 
 
@@ -153,6 +151,13 @@ footer{
 
 
 }
+h1{
+    text-align: center;
+  }
+
+
+
+
 
 
     
