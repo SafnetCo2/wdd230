@@ -20,14 +20,14 @@ h1  {
 
 }
 
-
-    /* background-color: #87805E; */
+nav{
+    background-color: #87805E;
  /* justify-content: space-between; */
 
 
    
   
- 
+}    
 
 nav button{
     background-color: transparent;
@@ -93,13 +93,11 @@ header .logo{
     
 }
 .date{
-    background-color: #87805E; 
-
-text-align: center;
-margin: 0.5rem;
- background-color: rgba(0, 0, 0, 0.2); 
-padding: 0.2rem;
-
+    text-align: right;
+	margin: 0.5rem;
+	/* border: 1px solid #bbb; */
+	padding: 0.75rem;
+	/* background-color: #eee; */
 }
 .hero figure img{
     width: 100%;
@@ -386,69 +384,33 @@ padding: 10px;
 .tree img{
     align-items: center;
 }
-/* discover */
 
-.container-card{
+
+
+/* join */
+/* Create two equal columns that floats next to each other */
+.grid-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    
+
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
 }
 
-.card{
+.grid-child-purple,.grid-child-green{
+ 
+    background-color: purple;
 
-    background-color: #fff;
-    width: 50%;
-    /* height: 40%; */
-    border-radius: 15px ;
-    /* margin: 10px; */
-    border: 1px solid red;
-}
-
-
-.card-image,.image{
-   
-    background-size: cover;
-    align-items: center;
-    width: 99%;
-    height: 10%;
-    border-radius: 15px 15px 0 0;
 
 } 
- .card h2, p {
-    
-    font-size: .8rem;
-    color: #000;
-    
-} 
-tr,th,td{
-    font-size: .8rem;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.card:hover{
-    background-color: #87805E;
-    cursor: pointer;
-}
-.card a{
-    background-color:  #87805E;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    border-radius: .1rem;
-    font-size: 1rem;
-    padding: 15px 20px;
-    display: block;
-    border-radius: .5rem;
-    margin: 20px 50px;
+/* .grid-child-purple{
+    grid-column: 2/-3;
+    grid-row: 1/-1;
+} */
 
-
-}
 
 
 
@@ -476,10 +438,6 @@ footer{
 
 
 }
-
-
-
-
 
 
     

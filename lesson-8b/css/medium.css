@@ -65,22 +65,21 @@
     .spotlight3{
         display: none;
     }
-    /* discover */
 
-    .card{
+/* join */
+/* .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 
-        background-color: #fff;
-        width: 40%;
-        height: 30%;
-        border-radius: 15px ;
-        /* margin: 10px; */
-        border: 1px solid red;
-    }
+} */
 
-.card-image,table.center{
 
-    align-items: center;
-}
+
+
+
+
+
 
 
 
