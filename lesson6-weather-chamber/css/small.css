@@ -394,6 +394,7 @@ p span.visits{
 .container-card{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     
 
@@ -403,8 +404,10 @@ p span.visits{
     text-align: center;
     align-items: center;
     font-size: .8rem;
+    
 }
 .cards{
+
     width: 300px;
     margin: 10px;
     border-radius: 15px;
