@@ -61,7 +61,7 @@ let observer = new IntersectionObserver(callback,options)
     observer.observe(document.querySelector("#image2"));
     observer.observe(document.querySelector("#image3"));
     observer.observe(document.querySelector("#image4"));
-    observer.observe(document.querySelector("#image5"))
+    observer.observe(document.querySelector("#image5"));
     observer.observe(document.querySelector("#image6"))
 
 
