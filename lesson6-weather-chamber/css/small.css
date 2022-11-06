@@ -394,7 +394,7 @@ p span.visits{
 .container-card{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
     
 
 
@@ -403,13 +403,12 @@ p span.visits{
     text-align: center;
     align-items: center;
     font-size: .8rem;
-    justify-content: center;
 }
 .cards{
     width: 300px;
     margin: 10px;
     border-radius: 15px;
-    background-color: #87805E;
+    /* background-color: #87805E; */
 }
 .card-img img{
     font-size: .8rem;
@@ -428,13 +427,13 @@ p span.visits{
 .card-footer{
     display: flex;
     align-items: center;
-    justify-content: center;
+
 }
 .card-footer button{
 
     width: 150px;
-    background-color: #87805E;
-    color: #fff;
+
+    color: #000;
     border-radius: 15px;
     border: 2px solid black;
     padding: 6px;
@@ -445,8 +444,7 @@ p span.visits{
 
 }
 .card-footer button:hover{
-    background-color: white;
-    color: #000;
+
     border: 2px solid #000;
 }
 
