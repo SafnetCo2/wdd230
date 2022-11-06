@@ -399,9 +399,10 @@ p span.visits{
 
 
 }
-.cards table tr td{
+.card-body table tr td{
     text-align: center;
-    font-size: 1rem;
+    align-items: center;
+    font-size: .8rem;
     justify-content: center;
 }
 .cards{
