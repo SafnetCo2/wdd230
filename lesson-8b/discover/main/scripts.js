@@ -27,13 +27,24 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // document.getElementById("date-time").innerHTML=dt+"/";
 
 const hero = new Date();
+
 const  day=hero.getDay();
+
 if (day < 1 || day > 2) {
     const x = document.querySelector('.dateT');
     x.remove();
   }
 
+//windchill
+//input: get the temperature and speed
+//process: compute for windchill factor
+//output:display result to the user
 
+
+//footer last updated
+  document.querySelector(
+	"#Last-updated"
+).textContent = `Last-updated: ${document.lastModified}`;
 
 //lazy loading
 let options={
@@ -57,89 +68,30 @@ let options={
       
   }
 let observer = new IntersectionObserver(callback,options)
-    observer.observe(document.querySelector("#image1"));
-    observer.observe(document.querySelector("#image2"));
-    observer.observe(document.querySelector("#image3"));
-    observer.observe(document.querySelector("#image4"));
-    observer.observe(document.querySelector("#image5"))
-    observer.observe(document.querySelector("#image6"))
+observer.observe(document.querySelector("#image1"));
+observer.observe(document.querySelector("#image2"));
+observer.observe(document.querySelector("#image3"));
+// observer.observe(document.querySelector("#image4"));
+// observer.observe(document.querySelector("#image5"));
 
 
+// initialize display elements
+const todayDisplay = document.querySelector(".today");
+const visitsDisplay = document.querySelector(".visits");
 
+// get the stored value in localStorage
+let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
+// determine if this is the first visit or display the number of visits.
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `This is your first visit!`;
+}
 
-
-
-
-
-
-
-  //number of visits
-
-
-  const visitsDisplay = document.querySelector(".visits");
-
-  // get the stored value in localStorage
-  let numberVisitsString = localStorage.getItem("visits-ls");
-  
-  if( numberVisitsString==undefined){
-    visitsDisplay.textContent = `This is your first visit!`;
-    localStorage.setItem("visits-ls", "1");
-    
-  } 
-  else{
-    let numVisits = Number(numberVisitsString);
-    numVisits++;
-    // store the new number of visits value
-    localStorage.setItem("visits-ls", numVisits);
-    visitsDisplay.textContent = "Your a lucky visitor number: "+ numVisits;
-  
-  }
-  
-  
-  
-  
-  // initialize display elements
-  const todayDisplay = document.querySelector(".today");
-  
-  // show todays date.
-  todayDisplay.textContent = Date.now();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-//windchill
-//input: get the temperature and speed
-//process: compute for windchill factor
-//output:display result to the user
-
-
-//footer last updated
-  document.querySelector(
-	"#Last-updated"
-).textContent = `Last-updated: ${document.lastModified}`;
+// increment the number of visits.
+numVisits++;
+// store the new number of visits value
+localStorage.setItem("visits-ls", numVisits);
+// show todays date.
+todayDisplay.textContent = Date.now();

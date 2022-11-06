@@ -65,18 +65,6 @@
     .spotlight3{
         display: none;
     }
-    /* discover */
-    .groups .image-session{
-        float: left;
-        overflow: hidden;
-    
-        /* margin-right: 10px; */
-    }
-/* ------------------------------discover------------------------------- */
-
-
-
-
     footer{
 
         grid-template-columns: 1fr 1fr;

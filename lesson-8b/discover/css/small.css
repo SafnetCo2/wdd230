@@ -20,14 +20,14 @@ h1  {
 
 }
 
-
-    /* background-color: #87805E; */
+nav{
+    background-color: #87805E;
  /* justify-content: space-between; */
 
 
    
   
- 
+}    
 
 nav button{
     background-color: transparent;
@@ -41,8 +41,15 @@ nav ul{
     padding: 0;
     margin: 0;
 }
-
- 
+.logo-box{
+   
+    justify-items: flex-start;
+    
+    
+    }
+    .logo-box h3{
+        font-size: .8em;
+    }
 
 
 nav ul li a{
@@ -93,13 +100,11 @@ header .logo{
     
 }
 .date{
-    background-color: #87805E; 
-
-text-align: center;
-margin: 0.5rem;
- background-color: rgba(0, 0, 0, 0.2); 
-padding: 0.2rem;
-
+    text-align: right;
+	margin: 0.5rem;
+	/* border: 1px solid #bbb; */
+	padding: 0.75rem;
+	/* background-color: #eee; */
 }
 .hero figure img{
     width: 100%;
@@ -189,7 +194,6 @@ main div{
 }
 
 
-    
    
   
     
@@ -386,112 +390,6 @@ padding: 10px;
 .tree img{
     align-items: center;
 }
-/* ------------------------------discover------------------------------- */
-p span.visits{
-    text-align: left;
-    justify-content: left;
-}
-.container-card{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-
-
-}
-.cards table tr td{
-    text-align: center;
-    font-size: 1rem;
-    justify-content: center;
-}
-.cards{
-    width: 300px;
-    margin: 10px;
-    border-radius: 15px;
-    background-color: #87805E;
-}
-.card-img img{
-    font-size: .8rem;
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-.card-body h2{
-    text-align: center;
-}
-.card-body p{
-    text-align: justify;
-    font-size: .8rem;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-.card-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.card-footer button{
-
-    width: 150px;
-    background-color: #87805E;
-    color: #fff;
-    border-radius: 15px;
-    border: 2px solid black;
-    padding: 6px;
-    font-size: 17px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    transition: 0.2s;
-
-}
-.card-footer button:hover{
-    background-color: white;
-    color: #000;
-    border: 2px solid #000;
-}
-
-
-
-
-
-
-
-
-
-/* ------------ join css-------------------  */
-/* .container{
-    max-width: 700px; */
-
-/* 
-    width: 100%;
-    padding: 25px 30px;
-    border-radius: 8px;
-    box-shadow: 0 5px 10px red;
-}
-
-.container .title{
-
-    font-size: 25px;
-    font-weight: bold;
-    position: relative;
-}
-  .container.title:after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 5px;
-    width: 30px;
-    border-radius: 8px;
-}   */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -508,10 +406,6 @@ footer{
 
 
 }
-
-
-
-
 
 
     

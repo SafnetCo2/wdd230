@@ -1,0 +1,19 @@
+@media only screen and (min-width: 64rem){
+    nav ul li a{
+        padding: .5rem 1rem;
+        display: block;
+
+    }
+
+
+    main{
+        grid-template-columns: 1fr ;
+
+    }
+    
+    
+    .footer{
+        flex-direction: row;
+    }
+    
+}
