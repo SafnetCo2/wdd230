@@ -420,7 +420,7 @@ p span.visits{
     font-size: 1rem;
 }
 .card-body p{
-    text-align: justify;
+    text-align: center;
     font-size: .8rem;
     margin-bottom: 10px;
     padding: 5px;
