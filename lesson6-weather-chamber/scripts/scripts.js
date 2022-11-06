@@ -49,20 +49,20 @@ let options={
               let imageUrl =entry.target.getAttribute("data-src");
               if(imageUrl){
                   entry.target.src=imageUrl;
-                  observer.unobserver(entry.target);
+                  observer.unobserver(entry.target)
               }
           }
           
       });
       
   }
-let observer = new IntersectionObserver(callback,options)
-    observer.observe(document.querySelector("#image1"));
-    observer.observe(document.querySelector("#image2"));
-    observer.observe(document.querySelector("#image3"));
-    observer.observe(document.querySelector("#image4"));
-    observer.observe(document.querySelector("#image5"));
-    observer.observe(document.querySelector("#image6"))
+  let observer = new IntersectionObserver(callback,options)
+      observer.observe(document.querySelector("#image1"))
+      observer.observe(document.querySelector("#image2"))
+      observer.observe(document.querySelector("#image3"))
+      observer.observe(document.querySelector("#image4"))
+      observer.observe(document.querySelector("#image5"))
+      observer.observe(document.querySelector("#image6"))
 
 
 
@@ -100,10 +100,10 @@ let observer = new IntersectionObserver(callback,options)
   
   
   // initialize display elements
-  const todayDisplay = document.querySelector(".today");
+  // const todayDisplay = document.querySelector(".today");
   
   // show todays date.
-  todayDisplay.textContent = Date.now();
+  // todayDisplay.textContent = Date.now();
 
 
 
