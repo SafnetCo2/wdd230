@@ -74,8 +74,10 @@
     }
 /* ------------------------------discover------------------------------- */
 
-
-
+.container-form form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+}
 
     footer{
 
