@@ -48,15 +48,18 @@
     }
     /* -----discover---- */
 
-    .container-form{
-        margin: 0 auto 0 auto;
 
-        max-width: 900px;
-        width: 100%
-        
-        
+    .container-form2{
+
+        flex-direction: row;
     
+       font-size: 1rem;
+        width: 100%;
     }
+    
+    
+
+
 
 
 

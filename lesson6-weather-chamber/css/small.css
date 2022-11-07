@@ -453,169 +453,75 @@ p span.visits{
 }
 /*---------------form--------------*/
 
-.container-form {
-
+.container-form2{
+    
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #647E68;
+    margin: 10px;
+    padding: 10px;
     width: 100%;
-    margin: 0 auto 0 auto;
-    padding: 20px;
-    border: 5px;
-    background-color: #87805E;
-    box-shadow: 0 5px 10px rgba(6, 7, 6);
+    height: auto;
+    gap: 1rem;
+    font-size: 2rem;
+
+   justify-content: center;
 }
- h3{
+h2{
+    font-size: 1.5rem;
     text-align: center;
+    font-weight: bold;
+}
+
+.container-form2 .member1, .form{
+    flex-direction: colum;
+    border: 2px solid #000;
+    padding: 10px;
+    font-size: 2rem;
+
+    align-items: center;
+    
+
+}
+.container-form2 .member1{
+    text-align: center;
+    font-size: 2rem;
+}
+.container-form2 .form{
+    margin: 10px;
     font-size: 1rem;
+    padding: 10px;
 }
-.container-form p{
+form label {
+
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+
+}
+form input,select,textarea{
+    text-align: center;
+    border-radius: 6px;
+
+    box-sizing: border-box;
+
     font-size: .8rem;
-    align-items: center;
-
-
-}
-.container-form .title{
-    font-size:  1rem;
-    position: relative;
-}
-.container-form .title::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    width: 30px;
-    border-radius: 8px;
-}
-.container-form form .user-details{
-
-    /* justify-content: center; */
-    justify-content: space-between;  
- 
-    margin: 20px 0 12px 0;
-
- 
-
-}
-form .user-details .input-box{
-    margin-bottom: 15px;
-    width: calc(100%/4-20px);
-    
-
-}
-form .input-box span.details{
-    display: block;
-    font-weight: bold;
-    margin-bottom: 7px;
-
-}
-.user-details .input-box input{
-    justify-content: space-between;
-    height: 45px;
+    padding: 10px 20px;
     width: 100%;
-    outline: none;
-    font-size: 15px;
-    border-radius: 7px;
-    padding-left: 5px;
-    border: 1px solid purple;
-    gap: 3rem;
-
 }
- select.member{
-    height: 45px;
-    width: 100%;
-    outline: none;
-    font-size: 15px;
-    border-radius: 7px;
-    padding-left: 5px;
-    border: 1px solid purple;    
-}
-form .input-box 
-.user-details .input-box .input-box:focus
-.user-details .input-box .input-box:valid{
-border-color: red ;
-}
-form .gender-details .gender-title{
-    font-size: 20px;
-    font-weight: bold;
-}
-form .category{
-    display: flex;
-    width: 80% ;
-    margin: 15px 0; 
-    
-justify-content: space-between;  
-}
-form .category label{
-    display: flex;
-    align-items: center;
+ button{
+        
     cursor: pointer;
-}
-/* form .category label.dot{
-    height: 18px;
-    height: 10px;
-    border-radius: 15px;
-    margin-right: 10px;
-    background-color: #ff0000;
-}
-#dot-1:checked ~ .category label .one,
-#dot-1:checked ~ .category label .two,
-#dot-1:checked ~ .category label .three
-{
-background:#ff0000;
-} */
+    margin:  auto;
+    padding: 10px;
+    border-radius: .2rem;
+    text-align: center;
+    width: 50%;
 
-
-form .button{
-    height: 50px;
-    
-    margin: 35px 0;
-}
-form.button input{
-    height: 100vh;
-    width:100vw;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-    transition: all .3s ease;
-    cursor: pointer
-
-    
 
 }
-.form .button:hover{
-    background-color: #87805E;
-}
-
-/* ------------ join css-------------------  */
-/* .container{
-    max-width: 700px; */
-
-/* 
-    width: 100%;
-    padding: 25px 30px;
-    border-radius: 8px;
-    box-shadow: 0 5px 10px red;
-}
-
-.container .title{
-
-    font-size: 25px;
-    font-weight: bold;
-    position: relative;
-}
-  .container.title:after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 5px;
-    width: 30px;
-    border-radius: 8px;
-}   */
-
-
-
-
 
 
 

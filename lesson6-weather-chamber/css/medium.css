@@ -72,12 +72,16 @@
     
         /* margin-right: 10px; */
     }
-/* ------------------------------discover------------------------------- */
+/* ------------------------------join------------------------------- */
+    .container-form2{
+    flex-direction: column;
+    width: 100%;
+    }
+    .container-form2 .member1, .form{
+        width: 100%;
+        font-size: 1rem;
+    }
 
-.container-form form .user-details{
-    display: flex;
-    flex-wrap: wrap;
-}
 
     footer{
 
