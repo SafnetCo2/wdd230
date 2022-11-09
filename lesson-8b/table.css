@@ -10,6 +10,7 @@
 }
 
 table {
+   
 	margin: 10px auto;
 	border: thin solid var(--border);
 	box-shadow: 0 0 7px var(--shadow);
@@ -17,10 +18,12 @@ table {
 }
 
 caption {
-  padding: 10px;
-  caption-side: bottom;
-	color: var(--back);
+
+    padding: 10px;
+    caption-side: bottom;
+	color: #000;
 	font-size: .85rem;
+    font-weight: bold;
 }
 
 tr:first-child th, .highlight {
