@@ -12,18 +12,14 @@ footer {
 }
 
 h1 {
-  color: #000;
+  text-align: center;
   border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #999;
-  width: 60%;
+  text-shadow: 0 0 15px #444;
+  width: 100%;
 }
 
-h2 {
-  color: #F0EBCE;
-  margin: 0;
-}
 
-h3,p{
+h2,h3,p{
   margin: 0;
 }
 
@@ -38,10 +34,6 @@ main {
   margin-left: 2rem;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
 
 
 img {
@@ -62,7 +54,7 @@ img {
 }
 
 .cards section {
-  background: #AA8B56;
+  background: #fff;
 
 
   border: 0.75em solid rgba(0,0,0,0.3);
@@ -79,4 +71,27 @@ footer {
   padding: 20px;
   text-align: center;
 }
+@media only screen and (min-width: 32em){
 
+
+
+
+  main{
+      grid-template-columns: 1fr 1fr 1fr ;
+
+  }
+}
+@media only screen and (min-width: 64rem){
+  *{
+  margin: 0 auto 0 auto;
+    width: 100%;
+  }
+
+
+
+
+  main{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+}
