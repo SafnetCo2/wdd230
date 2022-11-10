@@ -12,14 +12,19 @@ footer {
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
+  color: #000;
   border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #444;
+  text-shadow: 0 0 15px #999;
   width: 100%;
 }
 
+h2 {
+  color: #000;
+  margin: 0;
+}
 
-h2,h3,p{
+h3,p{
   margin: 0;
 }
 
@@ -33,7 +38,6 @@ h4 {
 main {
   margin-left: 2rem;
 }
-
 
 
 img {
@@ -70,28 +74,4 @@ footer {
   margin: 5px;
   padding: 20px;
   text-align: center;
-}
-@media only screen and (min-width: 32em){
-
-
-
-
-  main{
-      grid-template-columns: 1fr 1fr 1fr ;
-
-  }
-}
-@media only screen and (min-width: 64rem){
-  *{
-  margin: 0 auto 0 auto;
-    width: 100%;
-  }
-
-
-
-
-  main{
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-
-  }
 }
