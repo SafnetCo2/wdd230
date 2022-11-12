@@ -5,6 +5,9 @@ function toggleMenu(){
 const x =document.getElementById("btn")
 x.onclick=toggleMenu;
 
+
+
+
 // Date
 // const d= new Date();
 // document.getElementById("date-time").innerHTML=d;
@@ -99,31 +102,10 @@ let options={
   
   
   
-  // initialize display elements
-  // const todayDisplay = document.querySelector(".today");
-  
-  // show todays date.
-  // todayDisplay.textContent = Date.now();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   
 
-  
 
 
 
@@ -131,12 +113,6 @@ let options={
 
 
 
-
-
-//windchill
-//input: get the temperature and speed
-//process: compute for windchill factor
-//output:display result to the user
 
 
 //footer last updated

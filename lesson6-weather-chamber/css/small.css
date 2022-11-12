@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 1px;
     padding: 0;
-    text-align: center;
+    /* text-align: center; */
     font-size: 1.2rem;   
     color: #000;
 
@@ -524,6 +524,148 @@ form input,select,textarea{
 }
 
 
+/* ------------------------------joinstyles------------------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+/* body {
+  font-size: 16px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+} */
+/* 
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+} */
+.menu {
+    display: flex;
+    width: auto;
+    gap: .5rem;
+	margin: 1rem auto;
+	/* border: 1px solid rgba(0, 0, 0, 0.1); */
+	padding: 0.5rem;
+    justify-content: center;
+
+	text-align: center; 
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+/* img.handshake{
+    width: 10px;
+} */
+h1 {
+ font-size: 1.5rem;
+    text-align: center;
+  color: #000;
+  border-bottom: 1px solid #eee;
+  text-shadow: 0 0 15px #999;
+  width: 100%;
+}
+
+h2 {
+ font-size: 1rem;
+ color: #000;
+ margin: 0;
+}
+
+h3,p{
+  margin: 0;
+}
+
+h4 {
+  color: #333;
+  margin: 7px 0 5px 0;
+}
+
+
+p{
+    font-size: .8rem;
+}
+/* .cards-main {
+margin: 0 auto 0 auto;
+
+} */
+
+
+img {
+  width: auto;
+  margin: 0;
+  padding-bottom: 1rem ;
+    max-width: 325px;
+  /* box-shadow: 0 0 30px #777; */
+  height: 150px;
+  /* border: 1px solid #333; */
+}
+
+ li > img {
+  width: auto;
+  padding: 1px;
+  height: 20px;
+}
+.cards-b {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards-b section {
+  background: #fff;
+  
+
+
+  border: 0.75em solid rgba(0,0,0,0.3);
+  box-shadow: 0 1.5em 2.5em -0.5em;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+footer {
+  border-top: 1px solid #555;
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -578,4 +720,20 @@ footer{
 	font-size: smaller;
 }
 
+.hidden{
+    display: none;
+}
+table{
+    margin: auto;
+}
+td {
+    font-size: .8rem;
+    text-align: left;
+    padding: 10px;
+}
+
+td a{
+    font-size: .8rem;
+    padding: 10px;
+}
 

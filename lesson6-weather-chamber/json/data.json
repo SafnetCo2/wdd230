@@ -1,0 +1,56 @@
+{
+    "directory": [
+      {
+        "image": "../images/directory/Safaricom-Logo.wine.svg",
+        "name": "safaricom",
+        "location": "Safaricom house ",
+        "phone": "254 722 004524",
+        "website":"www.safaricom.co.ke"
+      },
+      {
+        "image": "../images/directory/Equity_Bank-logo-88F49E17E2-seeklogo.com.png",
+        "name": "Equity Bank",
+        "location": "Equity center upper Hill",
+      
+        "phone": " 2262000 ",
+        "website":"https://equitygroupholdings.com/ke/"
+    
+      },
+      {
+        "image": "../images/directory/kcb-group-plc-logo-B7BC851125-seeklogo.com2.png",
+        "name": "KCB",
+        "location": "Kencom house,commercial street",
+    
+        "phone": "+254 722 004524",
+        "website":"https://ke.kcbgroup.com/"
+    
+      },
+      {
+        "image": "../images/directory/county-logo.png",
+        "name": "Nairobi City County",
+        "location": "city Hall house,hall way ",
+    
+        "phone": "254 722 004524",
+        "website":"https://nairobi.go.ke/"
+    
+      },
+      {
+        "image": "../images/directory/mercedes-benz-9-logo-svgrepo-com.svg",
+        "name": "Dt dobie",
+        "location": "Enterprise road",
+
+        "phone": "+254 782 392 700",
+        "website":"https://www.kenyachamber.or.ke/"
+    
+      }
+
+
+
+
+
+
+
+
+
+
+]}

@@ -1,17 +1,7 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
-// async function getProphets(){
-//     const response = await fetch(requestURL);
-//     const data =await response.json();
-//     // console.log(prophets);
-//     // return prophets
-//     data.prophets.forEach(prophet => { 
-//         displayProphets(prophet)
-//     });
-    
-//     }
-fetch(requestURL)
+fetch(requestURL)//
   .then(function (response) {
     return response.json();
   })
