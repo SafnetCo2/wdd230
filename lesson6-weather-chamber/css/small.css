@@ -541,7 +541,7 @@ footer {
 .menu {
     display: flex;
     width: auto;
-    gap: .5rem;
+    margin: 0;
 	margin: 1rem auto;
 	/* border: 1px solid rgba(0, 0, 0, 0.1); */
 	padding: 0.5rem;
@@ -549,9 +549,7 @@ footer {
 
 	text-align: center; 
 }
-.handshake{
-justify-content: center;
-}
+
 
 .grid {
 	display: grid;
@@ -628,6 +626,12 @@ img {
   padding: 10px;
   text-align: center;
 }
+
+
+
+
+
+
 
 
 footer {
