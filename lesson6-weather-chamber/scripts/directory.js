@@ -40,7 +40,7 @@ const request = '../json/data.json';
 const requestURL ='../json/data.json'
 const cards = document.querySelector('.cards-b');
     
-    fetch(request)//
+    fetch(request)
       .then(function (response) {
         return response.json();
       })
@@ -50,9 +50,10 @@ const cards = document.querySelector('.cards-b');
         directories.forEach((directory) => displayDirectories(directory));
         directories.forEach((directory) => displayTable(directory));
       });
+
     
     
-    function displayDirectories(directory) {
+     function displayDirectories(directory) {
     
             
     
@@ -114,76 +115,76 @@ const cards = document.querySelector('.cards-b');
     
     
 
-//table
-function displayTable(directory) {
+    //table
+    function displayTable(directory) {
   
-  // Create elements to add to the document
-  let table_row = document.createElement('tr');
-  let td1 = document.createElement('td')
+    // Create elements to add to the document
+    let table_row = document.createElement('tr');
+    let td1 = document.createElement('td')
 
-  let td2=document.createElement('td');
-  let td3=document.createElement('td');
-  let td4=document.createElement('td');
+    let td2=document.createElement('td');
+    let td3=document.createElement('td');
+    let td4=document.createElement('td');
 
-  let website =  document.createElement('a');
-
-
-
-  // Change the textContent property of the h2 element to contain the prophet's full name
-
-  td1.textContent = directory.name;
-  // name.textContent = `${directory.name} `;
-  td2.textContent =directory.location;
-
-  td3.textContent=`Contacts: ${directory.phone}`
+    let website =  document.createElement('a');
 
 
-  website.textContent = `${directory.website}`
-  website.setAttribute('href',directory.website);
 
-  td4.appendChild(website)
+    // Change the textContent property of the h2 element to contain the prophet's full name
+
+    td1.textContent = directory.name;
+    // name.textContent = `${directory.name} `;
+    td2.textContent =directory.location;
+
+    td3.textContent=`Contacts: ${directory.phone}`
+
+
+    website.textContent = `${directory.website}`
+   website.setAttribute('href',directory.website);
+
+    td4.appendChild(website)
 
  
-  // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with    the appropriate variable).
 
 
-  // Add/append the section(card) with the h2 element
-  table_row.appendChild(td1)
-  table_row.appendChild(td2)
-  table_row.appendChild(td3)
-  table_row.appendChild(td4)
+    // Add/append the section(card) with the h2 element
+    table_row.appendChild(td1)
+    table_row.appendChild(td2)
+    table_row.appendChild(td3)
+    table_row.appendChild(td4)
 
 
-  // Add/append the existing HTML div with the cards class with the section(card)
-  document.querySelector('.table-directory').appendChild(table_row);
+     // Add/append the existing HTML div with the cards class with the section(card)
+      document.querySelector('.table-directory').appendChild(table_row);
 
-}
-
-
-//button 
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-const cards_b = document.querySelector(".cards-b");
-const table_directory = document.querySelector(".table-directory");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-  cards_b.classList.remove("hidden");
-  table_directory.classList.add("hidden")
-});
-
-listbutton.addEventListener("click", () => {
-table_directory.classList.remove("hidden");
-cards_b.classList.add("hidden")
-});// example using defined function
+    }
 
 
-document.querySelector(
-	"#Last-updated"
-).textContent = `Last-updated: ${document.lastModified}`;
+    //button 
+
+      const gridbutton = document.querySelector("#grid");
+      const listbutton = document.querySelector("#list");
+      const display = document.querySelector("article");
+      const cards_b = document.querySelector(".cards-b");
+      const table_directory = document.querySelector(".table-directory");
+
+    // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+    gridbutton.addEventListener("click", () => {
+      cards_b.classList.remove("hidden");
+      table_directory.classList.add("hidden")
+    });
+
+    listbutton.addEventListener("click", () => {
+    table_directory.classList.remove("hidden");
+    cards_b.classList.add("hidden")
+  });// example using defined function
 
 
-//
+    document.querySelector(
+      "#Last-updated"
+    ).textContent = `Last-updated: ${document.lastModified}`;
+
+
+    //
