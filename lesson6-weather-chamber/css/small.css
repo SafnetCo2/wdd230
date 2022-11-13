@@ -549,6 +549,9 @@ footer {
 
 	text-align: center; 
 }
+.handshake{
+justify-content: center;
+}
 
 .grid {
 	display: grid;
@@ -584,9 +587,10 @@ h4 {
 }
 
 
-p{
+a,p{
     font-size: .8rem;
 }
+
 /* .cards-main {
 margin: 0 auto 0 auto;
 

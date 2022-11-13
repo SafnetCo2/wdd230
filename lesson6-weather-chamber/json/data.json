@@ -42,7 +42,36 @@
         "phone": "+254 782 392 700",
         "website":"https://www.kenyachamber.or.ke/"
     
+      },
+      {
+        "image": "../images/directory/shell-logo-svgrepo-com.svg",
+        "name": "Shell Petroleum Products",
+        "location": "Upperhill road",
+
+        "phone": "+254-202714575",
+        "website":"https://www.shell.com/"
+    
+      },
+      {
+        "image": "../images/directory/skoda-6-logo-svgrepo-com.svg",
+        "name": "Skoda Auto", 
+        "location": " Skoda Auto Centre Mara/Ragati Road Junction, Upperhill",
+
+        "phone": "+254 782 392 700",
+        "website":"https://www.skoda-motorsport.com/en/skoda_rally/rally-kenya/"
+    
+      },
+      {
+        "image": "../images/coca-cola-4-logo-svgrepo-com.svg",
+        "name": "Coca-Cola East and Central Africa Ltd · Street/Road:",
+        "location": " Mara - Kilimanjaro Road,",
+
+        "phone": "+254 782 392 700",
+        "website":"https://www.coca-cola.co.ke/"
+    
       }
+
+
 
 
 
