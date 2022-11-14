@@ -2,6 +2,7 @@
     "directory": [
       {
         "image": "/wdd230/lesson6-weather-chamber/images/directory/Safaricom-Logo.wine.svg",
+        "alt": "safcom", 
         "name": "Safaricom",
         "location": "Safaricom house ",
         "phone": "254 722 004524",
@@ -9,6 +10,7 @@
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/directory/Equity_Bank-logo-88F49E17E2-seeklogo.com.png",
+        "alt": "equity", 
         "name": "Equity Bank",
         "location": "Equity center upper Hill",
       
@@ -18,6 +20,7 @@
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/directory/kcb-group-plc-logo-B7BC851125-seeklogo.com2.png",
+        "alt": "kcb", 
         "name": "KCB",
         "location": "Kencom house,commercial street",
     
@@ -27,6 +30,7 @@
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/directory/county-logo.png",
+        "alt": "county", 
         "name": "Nairobi City County",
         "location": "city Hall house,hall way ",
     
@@ -36,6 +40,7 @@
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/directory/mercedes-benz-9-logo-svgrepo-com.svg",
+        "alt": "mercedes", 
         "name": "Dt dobie",
         "location": "Enterprise road",
 
@@ -45,6 +50,7 @@
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/directory/shell-logo-svgrepo-com.svg",
+        "alt": "shell", 
         "name": "Shell Petroleum Products",
         "location": "Upperhill road",
 
@@ -53,7 +59,8 @@
     
       },
       {
-        "image": "/wdd230/lesson6-weather-chamber/images/directory/skoda-6-logo-svgrepo-com.svg",
+        "image" : "/wdd230/lesson6-weather-chamber/images/directory/skoda-6-logo-svgrepo-com.svg",
+        "alt": "skoda", 
         "name": "Skoda Auto", 
         "location": " Skoda Auto Centre Mara/Ragati Road Junction, Upperhill",
 
@@ -63,6 +70,7 @@
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/coca-cola-4-logo-svgrepo-com.svg",
+        "alt": "coca-cola", 
         "name": "Coca-Cola East and Central Africa Ltd · Street/Road:",
         "location": " Mara - Kilimanjaro Road,",
 

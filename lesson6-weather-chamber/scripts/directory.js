@@ -61,6 +61,7 @@ const cards = document.querySelector('.cards-b');
         let card = document.createElement('section');
         let h2=document.createElement('h2')
         let image = document.createElement('img');
+        let alt = document.createElement('p')
     
         let name=document.createElement('p');
         let location=document.createElement('p');
@@ -74,6 +75,7 @@ const cards = document.querySelector('.cards-b');
     
         h2.textContent = `${directory.name}`;
         // name.textContent = `${directory.name} `;
+        alt.textContent=`${directory.alt}`
         location.textContent =`${directory.location}`
 
    
@@ -95,6 +97,7 @@ const cards = document.querySelector('.cards-b');
 
         // Add/append the section(card) with the h2 element
         card.appendChild(image)
+        card.appendChild(alt)
         card.appendChild(h2);
         card.appendChild(name)
         card.appendChild(location)
@@ -125,6 +128,7 @@ const cards = document.querySelector('.cards-b');
     let td2=document.createElement('td');
     let td3=document.createElement('td');
     let td4=document.createElement('td');
+    let td5=document.createElement('td');
 
     let website =  document.createElement('a');
 
@@ -132,9 +136,9 @@ const cards = document.querySelector('.cards-b');
 
     // Change the textContent property of the h2 element to contain the prophet's full name
 
-    td1.textContent = directory.name;
+    td1.textContent = `${directory.name};`
     // name.textContent = `${directory.name} `;
-    td2.textContent =directory.location;
+    td2.textContent =`${directory.location}`;
 
     td3.textContent=`Contacts: ${directory.phone}`
 
@@ -143,6 +147,7 @@ const cards = document.querySelector('.cards-b');
    website.setAttribute('href',directory.website);
 
     td4.appendChild(website)
+    td5.textContent=`${directory.alt}`
 
  
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with    the appropriate variable).
@@ -153,6 +158,7 @@ const cards = document.querySelector('.cards-b');
     table_row.appendChild(td2)
     table_row.appendChild(td3)
     table_row.appendChild(td4)
+    table_row.appendChild(td5)
 
 
      // Add/append the existing HTML div with the cards class with the section(card)
