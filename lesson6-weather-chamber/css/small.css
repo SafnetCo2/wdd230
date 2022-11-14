@@ -583,6 +583,7 @@ form label.top input,form label.top select{
     background-color: rgba(0,0,0,0.1);
 }
 form label.sbs{
+justify-content: space-between;
     display: block;
     padding: .75rem 0;
     color: #555;
