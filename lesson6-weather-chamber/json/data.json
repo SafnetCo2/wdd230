@@ -1,14 +1,14 @@
 {
     "directory": [
       {
-        "image": "/lesson6-weather-chamber/images/directory/Safaricom-Logo.wine.svg",
+        "image": "/wdd230/lesson6-weather-chamber/images/directory/Safaricom-Logo.wine.svg",
         "name": "Safaricom",
         "location": "Safaricom house ",
         "phone": "254 722 004524",
         "website":"www.safaricom.co.ke"
       },
       {
-        "image": "/lesson6-weather-chamber/images/directory/Equity_Bank-logo-88F49E17E2-seeklogo.com.png",
+        "image": "/wdd230/lesson6-weather-chamber/images/directory/Equity_Bank-logo-88F49E17E2-seeklogo.com.png",
         "name": "Equity Bank",
         "location": "Equity center upper Hill",
       
@@ -17,7 +17,7 @@
     
       },
       {
-        "image": "/lesson6-weather-chamber/images/directory/kcb-group-plc-logo-B7BC851125-seeklogo.com2.png",
+        "image": "/wdd230/lesson6-weather-chamber/images/directory/kcb-group-plc-logo-B7BC851125-seeklogo.com2.png",
         "name": "KCB",
         "location": "Kencom house,commercial street",
     
@@ -26,7 +26,7 @@
     
       },
       {
-        "image": "/lesson6-weather-chamber/images/directory/county-logo.png",
+        "image": "/wdd230/lesson6-weather-chamber/images/directory/county-logo.png",
         "name": "Nairobi City County",
         "location": "city Hall house,hall way ",
     
@@ -35,7 +35,7 @@
     
       },
       {
-        "image": "/lesson6-weather-chamber/images/directory/mercedes-benz-9-logo-svgrepo-com.svg",
+        "image": "/wdd230/lesson6-weather-chamber/images/directory/mercedes-benz-9-logo-svgrepo-com.svg",
         "name": "Dt dobie",
         "location": "Enterprise road",
 
@@ -44,7 +44,7 @@
     
       },
       {
-        "image": "/lesson6-weather-chamber/images/directory/shell-logo-svgrepo-com.svg",
+        "image": "/wdd230/lesson6-weather-chamber/images/directory/shell-logo-svgrepo-com.svg",
         "name": "Shell Petroleum Products",
         "location": "Upperhill road",
 
@@ -53,7 +53,7 @@
     
       },
       {
-        "image": "/lesson6-weather-chamber/images/directory/skoda-6-logo-svgrepo-com.svg",
+        "image": "/wdd230/lesson6-weather-chamber/images/directory/skoda-6-logo-svgrepo-com.svg",
         "name": "Skoda Auto", 
         "location": " Skoda Auto Centre Mara/Ragati Road Junction, Upperhill",
 
@@ -62,7 +62,7 @@
     
       },
       {
-        "image": "/lesson6-weather-chamber/images/coca-cola-4-logo-svgrepo-com.svg",
+        "image": "/wdd230/lesson6-weather-chamber/images/coca-cola-4-logo-svgrepo-com.svg",
         "name": "Coca-Cola East and Central Africa Ltd · Street/Road:",
         "location": " Mara - Kilimanjaro Road,",
 
