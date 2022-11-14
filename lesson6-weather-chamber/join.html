@@ -63,17 +63,17 @@
                 level/badge advancement levels are sought-after by guides from neighbouring countries</p>
             <h3>Membership level</h3>
             <h3>Bronze</h3>
-            <img src="images/bronze-star-medal.png" alt="bronze">
+    
             <p>This is the entry level category for membership, through which all members must go by passing the Bronze level examination. pertinent to guiding in Kenya.Cultures & Tribes, Geography, History, Current Affairs, General Knowledge, Conservation, and First Aid. !</p>
             <h3>silver</h3>
-            <img src="images/silver.png" alt="silver">
+    
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit dignissimos, dolorem maiores obcaecati rerum dicta praesentium est saepe, iure quae, magni eaque. Officiis, atque quaerat repudiandae nesciunt eaque nobis.</p>
             <h3>Gold</h3>
-            <img src="images/cart.png" alt="cart">
+        
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit dignissimos, dolorem maiores obcaecati rerum dicta praesentium est saepe, iure quae, magni eaque. Officiis, atque quaerat repudiandae nesciunt eaque nobis.</p>
 
         </div>
-        <div class="form">
+        <!-- <div class="form">
             <form>
                 
                 <label for="fname" class="details">First Name</label>
@@ -115,8 +115,54 @@
         
     </div>
            
-       
-   
+        -->
+        <main>
+            <h1>Course Proposal Application</h1>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Application Information</legend>
+                    <label class="top" >First Name* <input type="text" name="fname" required></label>
+                    <label  class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label  class="top">Phone <input type="number" name="tel" placeholder="1234566"></label>
+                    <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>course Information</legend>
+                    <div>Audience</div>
+                    <label  class="sbs"> <input type="radio" name="audience" value="beginer">Beginer</label>
+                    <label  class="sbs"><input type="radio" name="audience" value="Intermediate">Intermediate</label>
+                    <label class="sbs"><input type="radio" name="audience" value="Advance">Advance</label>
+                    <div>Software Needed</div>
+                    <label class="sbs"><input type="checkbox" name="editing" value="yes">Photo Editing</label>
+                    <label class="sbs"><input type="checkbox" name="code" value="yes">coding</label>
+                    <label class="sbs"><input type="checkbox" name="process" value="yes">preprocessor</label> 
+                    <label class="sbs"><input type="checkbox" name="client" value="yes">FTP client</label>
+                </fieldset>
+        
+        
+                    <fieldset>
+                        <legend>Funding</legend>
+                        <label class="top">Anticipated completion Date  <input type="date" name="completion"></label>
+                        <label class="top">Course subject
+                        <option value="">please Select &#9662;</option>
+                        <select name="subject" >
+                        
+                        <option value="software">Software Development</option>
+                        <option value="creative">creative professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data proffessional</option>
+                         <option value="business">business proffessional</option>
+                        </select>
+                        </label>
+                        <label class="top">How many Authors <input type="number" name="authors"></label>
+                    </fieldset>
+                         <input type="submit" value="propose my course" class="submitBtn">
+        
+                
+            </form>
+                
     
     
         

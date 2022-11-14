@@ -35,9 +35,9 @@ function toggleMenu(){
   
   // ------------------------------------------------fetch api and json--------------------------------------------------------
 
-
-const request = '../json/data.json';
-const requestURL ='../json/data.json'
+// /wdd230/lesson6-weather-chamber/json/data.json
+const request = '/lesson6-weather-chamber/json/data.json';
+const requestURL ='/lesson6-weather-chamber/json/data.json';
 const cards = document.querySelector('.cards-b');
     
     fetch(request)

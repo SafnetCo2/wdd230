@@ -1,14 +1,14 @@
 {
     "directory": [
       {
-        "image": "../images/directory/Safaricom-Logo.wine.svg",
+        "image": "/lesson6-weather-chamber/images/directory/Safaricom-Logo.wine.svg",
         "name": "Safaricom",
         "location": "Safaricom house ",
         "phone": "254 722 004524",
         "website":"www.safaricom.co.ke"
       },
       {
-        "image": "../images/directory/Equity_Bank-logo-88F49E17E2-seeklogo.com.png",
+        "image": "/images/directory/Equity_Bank-logo-88F49E17E2-seeklogo.com.png",
         "name": "Equity Bank",
         "location": "Equity center upper Hill",
       

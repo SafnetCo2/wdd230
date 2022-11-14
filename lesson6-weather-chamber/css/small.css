@@ -453,7 +453,7 @@ p span.visits{
 }
 /*---------------form--------------*/
 
-.container-form2{
+/* .container-form2{
     
     display: flex;
     flex-direction: column;
@@ -472,10 +472,10 @@ h1 h2{
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
-}
+} */
 
-.container-form2 .member1, .form{
-    /* flex-direction: colum; */
+/* .container-form2 .member1, .form{
+
     border: 2px solid #000;
     padding: 10px;
     font-size: 2rem;
@@ -500,8 +500,8 @@ form span.details {
     text-align: center;
     align-items: center;
 
-}
-form input,select,textarea{
+} */
+/* form input,select,textarea{
     text-align: center;
     border-radius: 6px;
 
@@ -521,7 +521,7 @@ form input,select,textarea{
     width: 50%;
 
 
-}
+} */
 
 
 /* ------------------------------joinstyles------------------------------- */
