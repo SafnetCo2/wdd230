@@ -36,7 +36,7 @@ function toggleMenu(){
   // ------------------------------------------------fetch api and json--------------------------------------------------------
 
 // /wdd230/lesson6-weather-chamber/json/data.json
-const request = 'lesson6-weather-chamber/data.json';
+const request = '/lesson6-weather-chamber/json/data.json';
 // const requestURL ='ww/lesson6-weather-chamber/json/data.json';
 const cards = document.querySelector('.cards-b');
     
@@ -59,7 +59,7 @@ const cards = document.querySelector('.cards-b');
     
         // Create elements to add to the document
         let card = document.createElement('section');
-        let h1=document.createElement('h1')
+        let h2=document.createElement('h2')
         let image = document.createElement('img');
     
     
