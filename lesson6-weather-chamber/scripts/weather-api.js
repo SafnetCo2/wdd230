@@ -1,3 +1,76 @@
+function toggleMenu(){
+  document.getElementById("primaryN").classList.toggle("open")
+  document.getElementById("btn").classList.toggle("open")
+}
+const x =document.getElementById("btn")
+x.onclick=toggleMenu;
+
+
+
+
+// Date
+// const d= new Date();
+// document.getElementById("date-time").innerHTML=d;
+// select the elements to manipulate (output to)
+const datefield = document.querySelector(".date");
+// const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+
+// derive the current date using a date object
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now
+);
+// const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+// 	dateStyle: "full"}).format(now);
+// long, medium, short options ... try them
+
+datefield.innerHTML = `<em>${fulldate}</em>`;
+// datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+// const dt=new Date();
+// document.getElementById("date-time").innerHTML=dt+"/";
+
+const hero = new Date();
+const  day=hero.getDay();
+if (day < 1 || day > 2) {
+    const x = document.querySelector('.dateT');
+    x.remove();
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
@@ -65,52 +138,11 @@ async function apiFetch() {
 
 
 
+//footer last updated
+document.querySelector(
+	"#Last-updated"
+).textContent = `Last-updated: ${document.lastModified}`;
 
-
-
-
-// // select HTML elements in the document
-// const currentTemp = document.querySelector('current-temp');
-// const weatherIcon = document.querySelector('weather-icon');
-// const captionDesc = document.querySelector('figcaption');
-// // let key = 'c92dea3a65e6ebc96bcf770b1c6b553e';
-// // let lang = 'en';
-// // let units = 'Imperial';
-// // let cityId ='2172797';
-// // let cityName = 'fairbanks';
-// // const url =`//api.openweathermap.org/data/2.5/weather?id=&appid=${key}&units=${units}`;
-// const url='//api.openweathermap.org/data/2.5/weather?q=Fairbank&units=imperial&appid=431ec2896516f9999a95764a4dee4506';
-// apiFetch(url);
-
-// async function apiFetch(url){
-//     // try{
-//         const response = await fetch(url);
-//         if(response.ok){
-//             const weatherData = await response.json();
-//             console.log(weatherData);
-//             displayResults(weatherData);
-
-//         }else{
-//             throw Error(await response.text());
-//         }
-            
-//         // }catch (error){
-//         //     console.log(error)
-//         // }
-//     }
-//     function  displayResults(weatherData) {
-//         // currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-//          currentTemp.innerHTML = weatherData.main.temp.toFixed(1);
-      
-//         const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-//         const desc = weatherData.weather[0].description;
-      
-//         weatherIcon.setAttribute('src', iconsrc);
-//         weatherIcon.setAttribute('alt', desc);
-//         captionDesc.textContent = desc;
-//    }
-
-    
 
         
     
