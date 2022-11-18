@@ -6,8 +6,6 @@ const x =document.getElementById("btn")
 x.onclick=toggleMenu;
 
 
-
-
 // Date
 // const d= new Date();
 // document.getElementById("date-time").innerHTML=d;
