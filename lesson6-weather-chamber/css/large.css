@@ -69,8 +69,7 @@
 .form-container,.member{
     grid-column: 1/2;
     grid-row: 1;
-    padding: 10px;
-    margin: 10px;
+
     border-radius: .5rem;
 
     
