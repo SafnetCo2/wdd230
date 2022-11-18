@@ -372,6 +372,9 @@ p span.visits{
     border: 1px solid #333;
     /* background-color: #87805E; */
 }
+.card img{
+    width: 100%;
+}
 .card-img img{
     font-size: .8rem;
     width: 97%;
@@ -714,5 +717,7 @@ td a{
     background-color: blue;
   }
 
-  
-  
+  /* ------------------directory--------------------------------------------> */
+section img{
+width: 30%;
+  }
