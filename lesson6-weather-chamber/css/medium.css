@@ -73,15 +73,21 @@
         /* margin-right: 10px; */
     }
 /* ------------------------------join------------------------------- */
-    .container-form2{
-    flex-direction: column;
+    /* join */
+   
+/* Responsive columns */
+.form-container{
     width: 100%;
-    }
-    .container-form2 .member1, .form{
-        width: 100%;
-        font-size: 1rem;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+
+
+
+
+    
+ 
 
     footer{
 

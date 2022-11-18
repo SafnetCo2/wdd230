@@ -50,83 +50,78 @@
                 </div>
                 
             </nav>
+            
+
+
+
+
             <h1>Register Form</h1>
-           <div class="form">
-                <div class="member1">
+    
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@...com" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="+211144444" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business details</legend>
+                    <label class="top">Business Name <input type="text" name="title" required ></label>
+                    <label class="top">Business Type* <input type="text" name="compName" required></label>
+                    <label class="top">Business Description<textarea name="description"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze </label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver </label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+                    <label class="sbs"><input type="radio" name="membership" value="none"> None</label>
+                    <input type="hidden" id="date" name="date" value="CurrentTime"> 
+                    <input type="hidden" id="time" name="time" value="CurrentDate">
+                </fieldset>                    
+                <input type="submit" value="Join Chamber" class="submitBtn">
+            </form>
+
+    
+            <div class="form-container">
             
-                    <h4>Membership benefits</h4>
-                    <p>Industry-wide recognition of knowledge and guiding standards
-                        Employers often look  membership & levels on candidate's CV's
-                        level/badge advancement levels are sought-after by guides from neighbouring countries</p>
-                 
-                    <h4>Bronze</h4>
-            
-                    <p>This is the entry level category for membership, through which all members must go by passing the Bronze level examination. pertinent to guiding in Kenya.Cultures & Tribes, Geography, History, Current Affairs, General Knowledge, Conservation, and First Aid. !</p>
-                    <h4>silver</h4>
-            
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit dignissimos, dolorem maiores obcaecati rerum dicta praesentium est saepe, iure quae, magni eaque. Officiis, atque quaerat repudiandae nesciunt eaque nobis.</p>
-                    <h4>Gold</h4>
+        
+                <div class="member">
+                    <h2>Membership Levels</h2>
+                    <ul>
+                        <li>
+                        <h2>overview</h2>
+                        <p>Industry-wide recognition of knowledge and guiding standards
+                            Employers often look  membership & levels on candidate's CV's
+                            level/badge advancement levels are sought-after by guides from neighbouring countries</p>
+                        </li>
+                        <li>
+                            <h3>Bronze</h3>
+        
+                            <p>This is the entry level category for membership, through which all members must go by passing the Bronze level examination. pertinent to guiding in Kenya.Cultures & Tribes, Geography, History, Current Affairs, General Knowledge, Conservation, and First Aid. !</p>
                 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit dignissimos, dolorem maiores obcaecati rerum dicta praesentium est saepe, iure quae, magni eaque. Officiis, atque quaerat repudiandae nesciunt eaque nobis.</p>
-            
+
+                        </li>
+                        <li>
+                            <h3>silver</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit dignissimos, dolorem maiores obcaecati rerum dicta praesentium est saepe, iure quae, magni eaque. Officiis, atque quaerat repudiandae nesciunt eaque nobis.</p>
+                        </li>
+                        <li><h3>Gold</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, deserunt atque totam id in quasi officia similique animi asperiores amet saepe aut perspiciatis, at error, qui magnam. Veritatis, dolorem necessitatibus.</p>
+                        </li>
+                        
+                    </ul>
                 </div>
-         
-                        <form  method="get" action="thanks.html">
-                            <fieldset>
-                                <h1>Register details below</h1>
-                                <legend>Member Registration</legend>
-                                <label class="top">First Name* <input type="text" name="fname" required></label>
-                                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                                <label class="top">Phone<input type="tel" name="phone" placeholder="1234555"></label>
-                                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                                <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
-            
-                            </fieldset>
-                            <fieldset>
-                                <legend>Required Field</legend>
-                                <div>Gender</div>
-                                <label class="sbs"><input type="radio" name="audience" value="beginner">Male</label>
-                                <label class="sbs"><input type="radio" name="audience" value="beginner">Female</label>
-                                <label class="sbs"><input type="radio" name="audience" value="beginner">Other</label>
-            
-                                <div>Levels Required</div>
-                                <label  class="sbs"><input type="checkbox" name="Membership level" value="value">Bronze</label>
-                                <label  class="sbs"><input type="checkbox" name="Membership level" value="value">Silver</label>
-                                <label class="sbs"><input type="checkbox" name="Membership level" value="value">Gold</label>
-                                <label class="sbs"><input type="checkbox" name="Membership level" value="value">all</label>
-            
-                            
-                            </fieldset>
-                            <fieldset>
-                                <legend>Enter details</legend>
-                                <label class="top">Entry Date <input type="date" name="entry"></label>
-                                 
-                                <label class="top">Membership Level
-                                    
-                                
-                                    <select  name="level" >
-                                        <option value="">Please select</option> 
-                                
-                                        <option value="bronze">Bronze</option>
-                                        <option value="silver">Silver</option>
-                                        <option value="bronze and silver">Bronze and silver</option>
-                                        <option value="gold">Gold</option>
-                                        <option value="all levels">all</option>
-                                    </select>
-                                </label>
-                                <label class="top">How many Authors <input type="number" name="authors"></label>
-                            </fieldset>
-                            <input type="submit" value="register" class="Submit">
-            
-            
-            
-            
-            
-                        </form>
-                            
                 
-             
+               
+
+            
+
+
             </div>
+                
+                
                             
     
     

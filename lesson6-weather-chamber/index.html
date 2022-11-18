@@ -58,7 +58,7 @@
              <div class="date">
             </div>
         
-        <main>
+        <main >
             <!-- event -->
            
             <div class="event">
@@ -80,20 +80,36 @@
            
             <div class="weather">
                 <h2>weather</h2>
-                <figure class="sun">
+                <!-- <figure class="sun">
                     
                     <img src="images/cloud.jpg" alt="rain and cloud">
                     <h3> 33&#8451;</h3>
-
                 </figure>
-                <div class="windchill">
-                    <h2> partly cloud</h2>
-                </div>
+                 -->
+
+            
+                <figure>
+                <img src=" " alt="" id="weather-icon" />
+                
+                <p id="current-temp"></p>
+                <p id="speed"></p>
+
+                
+                <figcaption></figcaption>
+                </figure>
+            
+          
+                 <!-- <div class="windchill"> -->
+                    <!-- <h2> partly cloud</h2> -->
+                <!-- </div> -->
                 <div class="compute">
-                    <p>Temperature:50km/h <br>  Speed:4  <br> WindChill=<span id="windchill"></span> </p> 
-                    
-                    <a href="https://www.weather.gov/epz/wxcalc_windchill" target="blank">Goverment</a>
-                </div>
+                    <span id="windchill"></span>
+                    <!-- <p>Temperature:50km/h <br>  Speed:4  <br> WindChill=<span id="windchill"></span> </p>  -->
+<!--                     
+                    <a href="https://www.weather.gov/epz/wxcalc_windchill" target="blank">Goverment</a> -->
+                </div><br><br>
+                
+                <h2> source:OpenWeatherMap.org API Test </h2>
     
             </div>
                 <!-- hero -->
@@ -109,7 +125,7 @@
                     <button type="button">join the chamber</button> 
     
 
-                </div>
+                </div><br><br><br><br>
             
             <!-- news -->
             <div class="news">
@@ -233,10 +249,12 @@
     
     
 
-    
-    <script src="scripts/scripts.js">
-
-    </script>
+<!--     
+    <script src="scripts/scripts.js"> -->
+<!-- 
+    </script> -->
     <script src="scripts/windchill.js"></script>
+    
+
 </body>
 </html>

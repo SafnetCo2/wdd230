@@ -9,10 +9,8 @@
     box-sizing: border-box;
     margin: 1px;
     padding: 0;
-    /* text-align: center; */
     font-size: 1.2rem;   
     color: #000;
-
     
 }
 h1  {
@@ -23,10 +21,6 @@ h1  {
 
     /* background-color: #87805E; */
  /* justify-content: space-between; */
-
-
-   
-  
  
 
 nav button{
@@ -127,6 +121,9 @@ h1{
     text-align: center;
 }
 main{
+    padding: 5px;
+    margin: 8px;
+   
     font-size: 2rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -151,19 +148,13 @@ main div{
 
     
 }
-.hero img{
-    width: 100%;
-    height: 15rem;
-} 
+
 .stats {
     margin: 10px; 
    font-size: 1rem;
    position: absolute; 
    top: 200px;
-    
-    
-
-    background-color: transparent;
+   background-color: transparent;
 	
 }
 
@@ -187,22 +178,6 @@ main div{
     cursor: pointer;
 
 }
-
-
-    
-   
-  
-    
-
-
-/* .stats p{
-   
-    border: none;
-    background-color: transparent;
-    color: #FFF;
-} */
-
-
 .news{
     grid-column: 1/1;
     grid-row: 4;
@@ -217,15 +192,7 @@ main div{
     padding: 5px;
 
     text-align: center;
-    
-
-
-
 }
-
-
-    
-
 
 .spotlight1 a{
     color: #000;
@@ -248,9 +215,6 @@ main div{
     position: relative;
     display: none;
     padding: 10px;
-
-   
-    
 
 }
 .join img{
@@ -316,12 +280,6 @@ padding: 10px;
 	/* padding: 7px 10px;
   */
 }
-
-
-
-
-
-
 
 .weather{
     grid-column: 1/1;
@@ -411,12 +369,17 @@ p span.visits{
     width: 300px;
     margin: 10px;
     border-radius: 15px;
+    border: 1px solid #333;
     /* background-color: #87805E; */
 }
 .card-img img{
     font-size: .8rem;
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
+    width: 97%;
+    padding-bottom: 1rem ;
+    max-width: 325px;
+    border-radius: .5rem;
+
+
 }
 .card-body h2{
     text-align: center;
@@ -448,133 +411,49 @@ p span.visits{
 
 }
 .card-footer button:hover{
+    
 
     border: 2px solid #000;
 }
-/*---------------form--------------*/
-
-/* .container-form2{
-    
-    display: flex;
-    flex-direction: column;
-    
-    background-color: #647E68;
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
-    height: auto;
-    gap: 1rem;
-    font-size: 2rem;
-
-   justify-content: center;
-}
-h1 h2{
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: bold;
-} */
-
-/* .container-form2 .member1, .form{
-
-    border: 2px solid #000;
-    padding: 10px;
-    font-size: 2rem;
-
-    align-items: center;
-    
-
-}
-.container-form2 .member1{
-    text-align: center;
-    font-size: 2rem;
-}
-.container-form2 .form{
-    margin: 10px;
-    font-size: 1rem;
-    padding: 10px;
-}
-form span.details {
-
-    justify-content: center;
-    font-size: 1.5rem;
-    text-align: center;
-    align-items: center;
-
-} */
-/* form input,select,textarea{
-    text-align: center;
-    border-radius: 6px;
-
-    box-sizing: border-box;
-
-    font-size: .8rem;
-    padding: 10px 20px;
-    width: 100%;
-}
- button{
-        
-    cursor: pointer;
-    margin:  auto;
-    padding: 10px;
-    border-radius: .2rem;
-    text-align: center;
-    width: 50%;
-
-
-} */
-
-
 /* ------------------------------joinstyles------------------------------- */
-
-.form{
-    padding: 0 2%;
-    min-height: 20rem;
-}
-form fieldset{
-
-    margin: 0 auto 0 auto;
-
+.form-container{
     width: 100%;
-    justify-content: center;
-
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
 }
-form fieldset{
-    margin: 2rem 0;
+  
+main.form-container{
 
+    padding: 8px;
+  
 }
-.member1{
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem;
+form fieldset {
     text-align: left;
+    margin: 2rem auto;
+    padding: .5rem 2%;
+    width: 100%;
+    max-width: 22rem;
 }
 
-
-h3 p.member1{
-    text-align: left;
-}
-h1{
-    font-size: 1rem;
-    }
-
-form legend{
-    color: #445ba9;
-    margin: 1rem;
+form legend {
+    font-size: 20px;
+    color: #095b71;
+    margin: 0 1rem;
     padding: 0 .5rem;
 }
-form label.top, form div{
-   display: block;
-   padding-top: 1rem;
-   color: #9c2c13; 
-   font-size: .8rem;
-}
-form label.top input,form label.top select{
-    /* -webkit-appearance: none ; */
+
+form label.top {
     display: block;
-    font-size: 1rem;
+    padding-top: 1rem;
+    font-size: 16px;
+}
+
+form label.top input, 
+form label.top textarea {
+    display: block;
+    font-size: 16px;
+ 
     border-radius: 4px;
     padding: .75rem;
     color: #555;
@@ -582,24 +461,36 @@ form label.top input,form label.top select{
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
-form label.sbs{
-justify-content: space-between;
+
+form label.top textarea {
+    height: 150px;
+}
+
+form label.sbs {
     display: block;
-    padding: .75rem 0;
+    padding: .5rem;
     color: #555;
 }
-form input.submitBtn{
+
+form input.submitBtn {
+    margin: 0 aut0 0 auto;
     border: none;
-    background-color: #9c2c13;
-    color: #fff;
+   
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
+    width: 100%;
     max-width: 20rem;
 }
+
+
+
+/* thanks */
+
+h1#thanks {
+    margin-top: 20px;
+}
 form label.top input:required{
-    border-left: red;
+    border-left: red solid 6px;
 }
 form label.top input:required:valid{
     border-left: green solid 6px;
@@ -607,33 +498,7 @@ form label.top input:required:valid{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------------------------------------------------directory cards---------------------------------------------
 
 /* body {
   font-size: 16px;
@@ -659,21 +524,16 @@ footer {
 
 
 }
-img.handshake{
-    display: flex;
-    margin: 1rem auto;
-
+.hero img{
+    /* display: flex; */
+    margin: 0 auto ;
 	padding: 0.5rem;
     border: none;
-
-
-
-
-
     justify-content: center;
 	text-align: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 2rem;
  
 }
 .menu button {
@@ -723,15 +583,17 @@ margin: 0 auto 0 auto;
 } */
 
 
-img {
-  width: auto;
-  margin: 0;
+.hero img {
+  width: 100%;
+  padding: 8px;
+}
+  /* margin: 0;
   padding-bottom: 1rem ;
     max-width: 325px;
   box-shadow: 0 0 30px #777;
   height: 150px;
   border: 1px solid #333;
-}
+} */
 
  li > img {
   width: auto;
@@ -754,49 +616,6 @@ img {
   padding: 10px;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -866,3 +685,33 @@ td a{
     padding: 10px;
 }
 
+/* --------------------------------api_________________---- */
+
+
+.cloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 1rem;
+    width: 70%;
+    height: 60vh;
+    margin: 0 auto 0 auto;
+    padding: 2px 16px;
+    
+  }
+  .clouds{
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .tops{
+    font-size: 1rem;
+    
+  }
+  .tos{
+    background-color: blue;
+  }
+
+  
+  

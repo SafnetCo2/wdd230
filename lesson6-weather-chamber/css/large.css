@@ -57,17 +57,42 @@
         width: 100%;
     }
     
-/* -----------------------directory---------------------------------- */
+/* -----------------------join---------------------------------- */
+/* join */
+.form-container{
+    width: 100%;
+    display: grid;
+   grid-template-columns: 1fr 1fr ;
+    margin-bottom: 20px;
+}
 
-.form {
-    max-width: 64rem;
-    margin: auto;
-    padding: 0 2%;
-    min-height: 20rem;
+.form-container,.member{
+    grid-column: 1/2;
+    grid-row: 1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: .5rem;
+
+    
+   
 }
-.member1{
-    text-align: left;
+.member ul li{
+    list-style: none;
+
 }
+
+.form-container, form{
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    width: 100%;
+}
+.row p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
 
 
 
