@@ -167,7 +167,7 @@ const cards = document.querySelector('.cards-b');
 
       const gridbutton = document.querySelector("#grid");
       const listbutton = document.querySelector("#list");
-      const display = document.querySelector("article");
+      // const display = document.querySelector("article");
       const cards_b = document.querySelector(".cards-b");
       const table_directory = document.querySelector(".table-directory");
 
