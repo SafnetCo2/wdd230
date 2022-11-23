@@ -681,25 +681,56 @@ td a{
 section img{
 width: 30%;
   }
-
-  /* FOOTER */
-
+/* 
 
 
-  /* .myFooter{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}   */
-
-/* footer h3{
-    font-size: .8rem;
-    line-height: 1%;
-
-}  */
 footer{
-grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
 
-
+    justify-content: center;
 }
+
+
+#Last-updated {
+
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 20px;
+    width: 100%;
+    justify-content: center; 
+    text-align: center; 
+
+} 
+ */
+/* footer{
+ display: flex;
+ flex-direction: column;
+ bottom: 0px;
+} */
+.socialtop{
+margin: auto;
+    padding: 2px;
+}
+
+
+ footer{
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .foot ul{
+    list-style: none;
+ }
+ .copyright{
+    text-align: center;
+    
+ }
+ /* .foot{
+    flex-direction: row;
+}
+.contact{
+    align-items: center;
+    text-align: center;
+} */
