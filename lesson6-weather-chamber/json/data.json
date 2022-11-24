@@ -3,12 +3,12 @@
       {
   
         "image":"/wdd230/lesson6-weather-chamber/images/directory/Safaricom-Logo.wine.svg",
-    
         "alt": "mobile", 
         "name": "Safaricom",
         "location": "Safaricom house ",
         "phone": "254 722 004524",
-        "website":"www.safaricom.co.ke"
+        "website":"www.safaricom.co.ke", 
+        "membership": "Gold"
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/directory/Equity_Bank-logo-88F49E17E2-seeklogo.com.png",
@@ -17,7 +17,8 @@
         "location": "Equity center upper Hill",
       
         "phone": " 2262000 ",
-        "website":"https://equitygroupholdings.com/ke/"
+        "website":"https://equitygroupholdings.com",
+        "membership": "silver"
     
       },
       {
@@ -27,7 +28,8 @@
         "location": "Kencom house,commercial street",
     
         "phone": "+254 722 004524",
-        "website":"https://ke.kcbgroup.com/"
+        "website":"https://ke.kcbgroup.com/",
+        "membership": "Gold"
     
       },
       {
@@ -37,7 +39,8 @@
         "location": "city Hall house,hall way ",
     
         "phone": "254 722 004524",
-        "website":"https://nairobi.go.ke/"
+        "website":"https://nairobi.go.ke/",
+        "membership":"Gold"
     
       },
       {
@@ -47,7 +50,8 @@
         "location": "Enterprise road",
 
         "phone": "+254 782 392 700",
-        "website":"https://www.kenyachamber.or.ke/"
+        "website":"https://www.kenyachamber.or.ke/",
+        "membership":"Gold"
     
       },
       {
@@ -57,18 +61,20 @@
         "location": "Upperhill road",
 
         "phone": "+254-202714575",
-        "website":"https://www.shell.com/"
+        "website":"https://www.shell.com/",
+        "membership":"Gold"
     
       },
       {
-        "image" : "/wdd230/lesson6-weather-chamber/images/directory/skoda-6-logo-svgrepo-com.svg",
+        "image" : "/wdd230/lesson6-weather-chamber/images/directory/Britam-logo.png",
         "alt": "rally", 
-        "name": "Skoda Auto", 
-        "location": " Skoda Auto Centre Mara/Ragati Road Junction, Upperhill",
+        "name": "Britam Kenya", 
+        "location": " Ragati Road Junction, Upperhill",
 
         "phone": "+254 782 392 700",
-        "website":"https://www.skoda-motorsport.com/en/skoda_rally/rally-kenya/"
+        "website":"https://www.skoda-motorsport.com/",
     
+        "membership":"Gold"
       },
       {
         "image": "/wdd230/lesson6-weather-chamber/images/coca-cola-4-logo-svgrepo-com.svg",
@@ -77,9 +83,34 @@
         "location": " Mara - Kilimanjaro Road,",
 
         "phone": "+254 782 392 700",
-        "website":"https://www.coca-cola.co.ke/"
+        "website":"https://www.coca-cola.co.ke/",
+        "membership": "Silver"
     
-      }
+      },
+
+    {
+      "image": "/wdd230/lesson6-weather-chamber/images/directory/visa-logo-svgrepo-com.svg",
+        "alt": "kenya", 
+        "name": "Luthuli Avenue,Rware Business Centre,",
+        "location": " street Road,",
+
+        "phone": "+254 782 400 700",
+        "website":"https://visacenter.co.ke/",
+        "membership": "silver"
+    
+    },
+    {
+      "image": "/wdd230/lesson6-weather-chamber/images/tworivers_logo.png",
+        "alt": "kenya", 
+        "name": "Ruaka Town,Nairobi",
+        "location": " street Road,",
+
+        "phone": "+254 782 400 700",
+        "website":"https://tworivers.co.ke/",
+        "membership": "silver"
+        
+    
+    }
 
 
     

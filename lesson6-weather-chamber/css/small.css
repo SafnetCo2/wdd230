@@ -8,14 +8,16 @@
     box-sizing: border-box;
     margin: 1px;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   
     /* background-color: #87805E; */
 
 }
 /* -----------------------------nav and header style--------------------------------------------------------------- */
+
+
 h1  {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     margin: 0;
     border: none;
@@ -104,6 +106,7 @@ main{
     gap: 1rem;
     padding: 5px;
     margin: 8px;
+ 
      
 }
 main div{
@@ -164,8 +167,12 @@ main div{
     grid-column: 1/-1;
     grid-row: 5;
     padding: 5px;
+    font-size: 2rem;
 
     text-align: center;
+}
+.spotlight1 img{
+    width: 40%;
 }
 
 .spotlight1 a{
@@ -175,7 +182,16 @@ main div{
     grid-column: 1/-1;
     grid-row: 6;
     padding: 5px;
+    text-align: center;
+   
+
 }
+.spotlight2 img{
+    width: 40%;
+    
+} 
+
+
 .pen,.mail{
     justify-content: center;
     text-align: center;
@@ -307,17 +323,20 @@ padding: 10px;
  
 
 }
+
 .spotlight3{
     grid-column: 1/-1;
     grid-row: 6;
     justify-content: center;
-
-
+    padding: 5px;
     text-align: center;
     display: none;
 
 }
-
+.spotlight3 img{
+    width: 100%;
+    
+} 
 .tree {
 
         justify-content: center;
@@ -563,7 +582,7 @@ footer {
 
 
 h1 {
- font-size: 1.5rem;
+
     text-align: center;
   color: #000;
   border-bottom: 1px solid #eee;
@@ -588,7 +607,7 @@ h4 {
 
 
 a,p{
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 /* .cards-main {
@@ -734,3 +753,55 @@ margin: auto;
     align-items: center;
     text-align: center;
 } */
+/* ---------------------------------contact--------------------------------------- */
+
+.jos{
+    display: flex;
+    flex-direction: row;
+
+}
+.jos p{
+    border-radius: 20px;
+}
+.con ul li{
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+
+}
+.oranges{
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+}
+img.orage{
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 12px;
+    
+    /* margin-left: 90px; */
+
+}
+  img.lemac{
+    width: 20%;
+
+   
+    border-radius: 20rem;
+}
+img.le{
+    width: 50%;
+    border-radius: 1rem;
+    margin-left: 90px;
+
+
+} 
+
+
+ul.cons{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
