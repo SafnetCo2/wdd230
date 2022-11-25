@@ -438,6 +438,7 @@ p span.visits{
 }
 .member{
     margin: 50px auto 0 auto;
+    line-height: 2.5rem;
     padding: 6px;
     border: 1px solid #095b71;;
     border-radius: .5rem;
