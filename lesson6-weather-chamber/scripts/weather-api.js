@@ -33,41 +33,7 @@ if (day < 1 || day > 2) {
     const x = document.querySelector('.dateT');
     x.remove();
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ---------------------------------weather-api-------------------------------------->
 
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
