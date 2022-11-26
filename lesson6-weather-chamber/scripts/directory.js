@@ -67,7 +67,7 @@ const cards = document.querySelector('.cards-b');
         let location=document.createElement('p');
 
         let phone= document.createElement('p');
-        let website= document.createElement('a');
+        // let website= document.createElement('a');
 
    
       
@@ -79,7 +79,7 @@ const cards = document.querySelector('.cards-b');
    
         phone.textContent=`Contacts: ${directory.phone}`
     
-        website.textContent=`${directory.website}`
+        // website.textContent=`${directory.website}`
        
         // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
        
@@ -89,7 +89,7 @@ const cards = document.querySelector('.cards-b');
         image.setAttribute('loading', 'lazy');
         image.setAttribute('src', directory.image)
         image.setAttribute('alt', directory.alt)
-        website.setAttribute('href',directory.website);
+        // website.setAttribute('href',directory.website);
       
 
         // Add/append the section(card) with the h2 element
@@ -99,7 +99,7 @@ const cards = document.querySelector('.cards-b');
         card.appendChild(location)
    
         card.appendChild(phone)
-        card.appendChild(website)
+        // card.appendChild(website)
       
         // Add/append the existing HTML div with the cards class with the section(card)
         document.querySelector('div.cards-b').appendChild(card);
@@ -123,10 +123,10 @@ const cards = document.querySelector('.cards-b');
 
     let td2=document.createElement('td');
     let td3=document.createElement('td');
-    let td4=document.createElement('td');
+    // let td4=document.createElement('td');
     let td5=document.createElement('td');
 
-    let website =  document.createElement('a');
+    // let website =  document.createElement('a');
 
 
 
@@ -139,10 +139,10 @@ const cards = document.querySelector('.cards-b');
     td3.textContent=`Contacts: ${directory.phone}`
 
 
-    website.textContent = `${directory.website}`
-   website.setAttribute('href',directory.website);
+  //   website.textContent = `${directory.website}`
+  //  website.setAttribute('href',directory.website);
 
-    td4.appendChild(website)
+    // td4.appendChild(website)
     td5.textContent=`${directory.alt}`
 
  
@@ -153,7 +153,7 @@ const cards = document.querySelector('.cards-b');
     table_row.appendChild(td1)
     table_row.appendChild(td2)
     table_row.appendChild(td3)
-    table_row.appendChild(td4)
+    // table_row.appendChild(td4)
     table_row.appendChild(td5)
 
 

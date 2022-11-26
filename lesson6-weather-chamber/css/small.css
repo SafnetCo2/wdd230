@@ -7,9 +7,9 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
-    margin: 0px;
+    margin: 0;
     padding: 0;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   
     /* background-color: #87805E; */
 
@@ -173,7 +173,9 @@ main div{
     text-align: center;
 }
 .spotlight1 img{
+   
     width: 40%;
+    height: auto;
 }
 
 .spotlight1 a{
@@ -189,7 +191,7 @@ main div{
 }
 .spotlight2 img{
     width: 40%;
-    
+    height: auto;
 } 
 
 
@@ -380,8 +382,10 @@ p span.visits{
 }
 .card img{
     width: 100%;
+    height: auto;
 }
 .card-img img{
+    height: auto;
     font-size: .8rem;
     width: 97%;
     padding-bottom: 1rem ;
@@ -562,6 +566,7 @@ footer {
 .hero img{
     /* display: flex; */
     width: 100%;
+    height: auto;
     border: none;
     
     gap: 1rem;
@@ -624,6 +629,7 @@ margin: 0 auto 0 auto;
 } */
 
  li > img {
+    height: auto;
   width: auto;
   padding: 1px;
   height: 20px;
@@ -693,6 +699,7 @@ td a{
 
   /* ------------------directory--------------------------------------------> */
 section img{
+    height: auto;
 width: 30%;
   }
 /* 
@@ -776,6 +783,7 @@ margin: auto;
     width: 100%;
 }
 img.orage{
+    height: auto;
     width: 100%;
     border-radius: 1rem;
     margin: 0;
@@ -785,11 +793,13 @@ img.orage{
 
 }
   img.lemac{
+    height: auto;
     width: 35%;
     border-radius: 2rem;
     padding: 2px;
 }
 img.le{
+    height: auto;
     width: 50%;
     border-radius: 1rem;
     margin-left: 90px;

@@ -2,11 +2,22 @@
     *{
         font-size: 1.3rem;
     }
-    nav ul li a{
-        padding: .5rem 1rem;
-
-    }
-
+    nav button {
+        display: none;
+      }
+    
+      nav ul{
+        display: flex;
+      }
+    
+      nav ul li a{
+        border: none;
+      }
+    
+      nav ul.open{
+        display: flex;
+      }
+    
     main{
         grid-template-columns: 1fr 1fr 1fr 1fr;
 

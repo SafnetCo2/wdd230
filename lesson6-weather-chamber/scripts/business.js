@@ -20,6 +20,8 @@ fetch(request)
 })
 .then(function(jsonObject){
     console.log(jsonObject);
+
+
     const directories = jsonObject['directory'];
     const filteredBusnesses  = directories.filter((business) => business.membership == "Gold" || business.membership == "Silver");
 
@@ -38,17 +40,16 @@ fetch(request)
         <h3> ${selectedBusiness1.name}</h3>
         
             <img src="${selectedBusiness1.image}" alt="${selectedBusiness1.name}">
-            <p>Email :${selectedBusiness1.email} </p>
+            <p>location:${selectedBusiness1.location} </p>
             <p>Phone number :${selectedBusiness1.phone} </p>
-            <p>Website :${selectedBusiness1.website} </p>
+    
             <p>Membership : <strong> ${selectedBusiness1.membership}</strong> </p>
             `;
             
             
             
             
-            
-            
+        
 
 
 
@@ -58,9 +59,9 @@ fetch(request)
         <h3> ${selectedBusiness2.name}</h3>
         
             <img src="${selectedBusiness2.image}" alt="${selectedBusiness2.name}">
-            <p>Email :${selectedBusiness2.email} </p>
+            <p>location:${selectedBusiness2.location} </p>
         
-            <p>Website :${selectedBusiness2.website} </p>
+       
             <p>Membership : <strong> ${selectedBusiness2.membership}</strong> </p>`;
 
 
@@ -87,9 +88,8 @@ fetch(request)
         <h3> ${selectedBusiness3.name}</h3>
         
             <img src="${selectedBusiness3.image}" alt="${selectedBusiness3.name}">
-            <p>Email :${selectedBusiness3.email} </p>
+            <p>location :${selectedBusiness3.location} </p>
         
-            <p>Website :${selectedBusiness3.website} </p>
             <p>Membership : <strong> ${selectedBusiness3.membership}</strong> </p>
 
 
