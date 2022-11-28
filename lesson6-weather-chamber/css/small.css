@@ -626,7 +626,7 @@ margin: 0 auto 0 auto;
   box-shadow: 0 0 30px #777;
   height: 150px;
   border: 1px solid #333;
-} */
+ */
 
  li > img {
     height: auto;
@@ -768,7 +768,7 @@ margin: auto;
     text-align: left;
 }
 .ship p{
-    text-align: justify;
+    text-align: center;
 }
 .con ul li{
     font-size: 1rem;
