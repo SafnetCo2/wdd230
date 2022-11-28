@@ -103,9 +103,9 @@ async function apiFetch() {
 
 
 //footer last updated
-document.querySelector(
-	"#Last-updated"
-).textContent = `Last-updated: ${document.lastModified}`;
+// document.querySelector(
+// 	"#Last-updated"
+// ).textContent = `Last-updated: ${document.lastModified}`;
 
 
         
