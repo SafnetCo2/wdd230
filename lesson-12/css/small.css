@@ -174,7 +174,7 @@ nav{
     padding: 10px 20px;
     border-radius: 10px;
     
-    background-color: goldenrod;
+
 
     margin-top: 20px
     ;
@@ -182,10 +182,11 @@ nav{
 }
 #showcase  a:hover{
 
-    background-color: red;
+    background-color: rgb(66, 65, 65);
 }
 
 #showcase.button{
+    color: #000;
     font-size: 18px;
     text-decoration: none;
     border: 1px solid #000;
@@ -219,7 +220,7 @@ nav{
     text-align: center;
     text-transform: capitalize;
     letter-spacing: .5rem;
-    text-shadow: .1rem .1rem .1rem #000;
+
 
 }
 
@@ -279,7 +280,7 @@ nav{
     text-decoration: none;
 }
 .describe{
-    color: rgb(255, 255, 255);
+
     font-weight: 100;
 }
 .read{
