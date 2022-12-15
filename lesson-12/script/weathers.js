@@ -1,4 +1,23 @@
 
+//menu button
+const toggleButton = document.getElementsByClassName('toggle-btn')[0]
+const navbarlinks = document.getElementsByClassName('nav-links')[0]
+
+toggleButton.addEventListener('click',()=> {
+  navbarlinks.classList.toggle('hide')
+})
+
+
+
+
+
+
+
+
+
+
+
+
   
 function getInfo(){
     const newName =document.getElementById('cityInput');
