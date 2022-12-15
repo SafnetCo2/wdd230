@@ -1,0 +1,125 @@
+@media only screen and (min-width: 1024px){
+    *{
+        font-family:sans-serif ;
+        
+    }
+    
+
+  .title {
+      min-width: 300px;
+  }
+    .nav-links ul{
+      flex-direction: row; 
+      display: flex;
+      justify-content: end;
+    }
+    .nav-links li>a:hover {
+      color: blue ;
+  }
+    .nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    }
+    .toggle-btn {
+        display: none;
+      }
+      .logo-box img{
+       align-items: center;
+       justify-content: center;
+ 
+
+      }
+      .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background:#f2f2f2;
+        
+      }
+
+      
+    
+      nav ul li a{
+        border: none;
+      }
+      form input.submitBtn {
+        justify-content: left;
+            /* align-items: center; */
+        /* text-align: center; */
+        display: flex;
+    }
+    textarea{
+      justify-content: center;
+      margin: 10px;
+    }
+    footer{
+      margin: 0 auto 0 auto;
+      text-align: justify;
+    }
+   .container-footer{
+    flex-direction: row;
+  
+  }
+   
+   .container-footer p{
+    font-size: .8rem;
+   }
+   .container-footer ul li a{
+    font-size: .8rem;
+    width: 100%;
+  }
+
+  p{
+    color: blue;
+  }
+  .cloud{
+    margin-top: 0rem;
+  }
+  .description{
+    color: rgb(218, 206, 206);
+    font-weight: 100;
+  }
+
+  /* .slideshow-container div img{
+
+  width: 100%;
+  height:30vh;
+  
+} */
+.card-f{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: .5rem;
+  text-align: center;
+  font-size: .8rem;
+  width: 100%;
+  /* position: relative;
+  transition: .5s; */
+
+  margin: 1rem;;
+}
+.card-f h3{
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.card-f div.ption{
+  flex-grow: 1;
+  justify-content: center;
+  gap: 4rem;
+
+  margin: 10px;
+  padding: 5px;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+}
+
+
+
+

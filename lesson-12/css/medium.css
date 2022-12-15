@@ -1,0 +1,44 @@
+@media only screen and (min-width: 600px){
+    .toggle-btn{
+    display: flex;
+
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        background:#f2f2f2;
+    
+    
+    }
+
+    .hide{
+        display : none;
+    }
+    /* .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+
+    } */
+        
+    nav button {
+        display: flex;
+      }
+
+    .nav-links li{
+        text-align: center;
+        text-decoration: none;
+    }
+    .nav-links li a{
+        padding: .5rem 1rem;
+    
+    }
+    .nav-links .active{
+        display: flex;
+    }
+    .container-footer{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}

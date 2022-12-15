@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="boutifull foods provides the locals with fresh fruits from the garden">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <title>Bountifull foods</title>
+    </head>
+    <body>
+        
+        <nav class="navbar">
+            <div class="title">Bountifull Foods</div>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+            <!-- <section class="section-1" id="showw"> -->
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="images/igor-savelev-gaEZgaGi9V8-unsplash.png" style="width:100%" alt="igor">
+                      <div class="welcome">Welcome to Bountifull Foods</div>
+                      <div class="text" id="input">Caption Text</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="images/vitaliip-chernopyskyi-Oxb84ENcFfU-unsplash.jpg" style="width:100%" alt="vitalip">
+                      <div class="welcome">Welcome to Bountifull Foods</div>
+                      <div class="text" id="input1">Caption Two</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="images/vitaliip-chernopyskyi-Oxb84ENcFfU-unsplash.jpg" style="width:100%" alt="talip">
+                      <div class="welcome">Welcome to Bountifull Foods</div>
+                      <div class="text" id="input2">Caption Three</div>
+                    </div>
+                    
+                    </div>
+                    
+                    <div style="text-align:center" class="top">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                    </div>
+            <!-- </section> -->
+        <main>  
+            <form method="get" id="get-form">
+                <fieldset>
+                    <legend>Form Contact</legend>
+                    <label class="top">First Name* <input type="text" name="fname"  id="fname" required ></label>
+                    <label class="top">Email* <input type="email" name="email" id="email" placeholder="someone@...com" ></label>
+                    <label class="top">Phone <input type="tel" name="phone" id="phone" placeholder="+211144444" ></label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>fruit options</legend>
+                    <select id="option1"></select>
+                    <select  id="option2"></select>             
+                    <select id="option3"></select>
+                </fieldset>
+    
+                <fieldset>
+                    <label class="top" for="commentsBox" id="comment">Comments:</label>
+                    <textarea  id="commentsBox">Hi there</textarea>        
+                    <input type="submit" value="submit" id="submit" class="submitBtn">                 
+                </fieldset>   
+
+            </form><br><br>
+            <div class="countTimesUserSubmits" id="counts">
+                <p class="para1">Hello! you have requested <span id="count"></span> orders</p>
+                <p id="getDate"></p>
+
+            </div>
+            <div class="card-f"> 
+                <div class="ption">
+                    
+                    <p id="number"></p>
+                    <p id="emails"></p>
+                    <p id="displayName"></p>
+                    
+                </div>  
+                <div class="ption">
+                    <p id="fruits-1"></p>
+                    <p id="fruits-2"></p>
+                    <p id="fruits-3"></p>
+                    <p id="displayComment"></p>
+                    
+                </div> 
+                <div class="ption">                            
+                    
+                    <p id="carbohydrate"></p>
+                    <p id="protein"></p>
+                    <p  id="sugar"></p>
+                    <p id="fat"></p>
+                    <p  id="calories"></p>
+                </div>                         
+            </div>
+            
+    
+        
+
+        </main>
+        <footer>
+            <section class="container-footer">
+                <div class="about">
+                    <h3>About</h3>
+                    <p>Welcome to south califonia beaches where you enjoy  different fruit juices <br>locally grown in the area 
+                        prepared and served by bountifull Foods.</p>
+                </div>
+                <div class="services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="fresh.html">Fresh</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                <h3>Contact</h3>
+                <ul>
+                        <li><a href="#">Address:P.Box 182 Machakos</a></li>
+                        <li><a href="#">Phone: +254712811416</a></li>
+                        <li><a href="#">Email:kimmyjmueni@gmail.com</a></li>
+                    </ul>
+                    <div class="socialtop">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+    
+                    
+                    </div>
+            </div>
+
+            </section>
+            <section class="copyright">
+                <h3>&copy;2022 |Josephine Mueni|WDD230 final project </h3>
+        
+                
+            </section>
+            <div id="Last-updated"></div>
+            
+        </footer>
+
+        <script src="script/main.js"></script>
+    </body>
+</html>
